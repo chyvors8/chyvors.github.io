@@ -1,0 +1,3 @@
+# Separate Sites source checkout; GitHub Pages uses docs/.
+/backdropped/
+.DS_Store
