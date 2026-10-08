@@ -158,7 +158,7 @@ if(document.querySelector('#occasion-panel')) setOccasion(activeOccasion);
 const serviceSelect = document.querySelector('#brief-service');
 if(serviceSelect) serviceSelect.value = content[activeOccasion].service;
 document.querySelector('#brief-form')?.addEventListener('submit',event=>{event.preventDefault();const data=new FormData(event.target);const text=['BACKDROPPED — PROJECT BRIEF','','Name: '+data.get('name'),'Email: '+data.get('email'),'Service: '+data.get('service'),'Required date: '+(data.get('date')||'To be confirmed'),'','Project details:',data.get('details'),'','Prepared for discussion with backdropped.'].join('\n');const url=URL.createObjectURL(new Blob([text],{type:'text/plain;charset=utf-8'}));const link=document.createElement('a');link.href=url;link.download='backdropped-project-brief.txt';document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);document.querySelector('#brief-status').textContent='Your brief is ready to save. Keep it handy to share with backdropped.';});
-const menu=document.querySelector('.menu-toggle');const navigation=document.querySelector('#navigation');menu.addEventListener('click',()=>{const expanded=menu.getAttribute('aria-expanded')==='true';menu.setAttribute('aria-expanded',String(!expanded));navigation.classList.toggle('open',!expanded);});navigation.querySelectorAll('a,button').forEach(item=>item.addEventListener('click',()=>{menu.setAttribute('aria-expanded','false');navigation.classList.remove('open');}));document.addEventListener('keydown',event=>{if(event.key==='Escape'&&navigation.classList.contains('open')){navigation.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.focus();}});
+const menu=document.querySelector('.menu-toggle');const navigation=document.querySelector('#navigation');menu.addEventListener('click',()=>{const expanded=menu.getAttribute('aria-expanded')==='true';menu.setAttribute('aria-expanded',String(!expanded));navigation.classList.toggle('open',!expanded);});navigation.querySelectorAll('a').forEach(item=>item.addEventListener('click',()=>{menu.setAttribute('aria-expanded','false');navigation.classList.remove('open');}));document.addEventListener('keydown',event=>{if(event.key==='Escape'&&navigation.classList.contains('open')&&document.querySelector('.occasion-nav-toggle').getAttribute('aria-expanded')!=='true'){navigation.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.focus();}});
 document.querySelector('#year').textContent = new Date().getFullYear();
 const processVideo = document.querySelector('#process-video');
 const videoToggle = document.querySelector('#video-toggle');
@@ -192,4 +192,28 @@ stripToggle?.addEventListener('click', () => {
   stripToggle.setAttribute('aria-pressed', String(paused));
   stripToggle.setAttribute('aria-label', paused ? 'Resume scrolling text' : 'Pause scrolling text');
   stripToggle.firstElementChild.textContent = paused ? '▷' : 'Ⅱ';
+});
+
+const occasionNav = document.querySelector('.occasion-nav');
+const occasionNavToggle = document.querySelector('.occasion-nav-toggle');
+const occasionNavOptions = document.querySelector('#occasion-nav-options');
+function closeOccasionNav() {
+  occasionNavToggle.setAttribute('aria-expanded', 'false');
+  occasionNavOptions.hidden = true;
+}
+occasionNavToggle.addEventListener('click', () => {
+  const expanded = occasionNavToggle.getAttribute('aria-expanded') === 'true';
+  occasionNavToggle.setAttribute('aria-expanded', String(!expanded));
+  occasionNavOptions.hidden = expanded;
+});
+occasionNavToggle.addEventListener('keydown', event => {
+  if (event.key === 'ArrowDown') {
+    event.preventDefault(); occasionNavToggle.setAttribute('aria-expanded', 'true');
+    occasionNavOptions.hidden = false; occasionNavOptions.querySelector('a').focus();
+  }
+});
+document.addEventListener('click', event => {if (!occasionNav.contains(event.target)) closeOccasionNav();});
+occasionNav.addEventListener('focusout', event => {if (!occasionNav.contains(event.relatedTarget)) closeOccasionNav();});
+occasionNav.addEventListener('keydown', event => {
+  if (event.key === 'Escape') {event.preventDefault(); event.stopPropagation(); closeOccasionNav(); occasionNavToggle.focus();}
 });
