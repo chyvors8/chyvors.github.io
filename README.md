@@ -31,3 +31,7 @@ The project enquiry form downloads a brief to the visitor's device. It does not 
 Built-in image generation created three illustrative scenes: a bright creative studio with sketches and lime/pink/orange/blue backdrop materials; a pastel celebration with arches, balloons, flowers and table styling; and a corporate activation with blue/lime panels, acrylic displays and illuminated signboard shapes. Prompts requested wide editorial photographs without people, logos or readable lettering.
 
 Saved assets: `docs/assets/creative-studio.jpg`, `personal-event-poster.jpg`, `corporate-event-poster.jpg`, `personal-event-loop.mp4` and `corporate-event-loop.mp4` (all in `docs/assets/`). The two 12-second silent H.264 videos animate the generated event scenes with a seamless camera pan; they are illustrative loops, not live event footage. Category switching selects the relevant film. Pause preferences persist when switching; reduced motion uses the poster image.
+
+## Service mockups
+
+Each occasion service card includes its own AI-generated concept photograph. The 12 final optimised images and exact generation prompts are in `docs/assets/mockups/`; see `PROMPTS.md`. These illustrate possible designs rather than completed customer projects.

@@ -11,7 +11,9 @@ const content = {
           "Baby shower backdrops",
           "Welcome & personalised signage",
           "Table decorations"
-        ]
+        ],
+        "image": "assets/mockups/baby-showers.jpg",
+        "alt": "Pastel baby shower arches, balloons, welcome signage and dessert table concept"
       },
       {
         "name": "Anniversaries",
@@ -20,7 +22,9 @@ const content = {
           "Anniversary backdrops",
           "Personalised signage",
           "Table decorations"
-        ]
+        ],
+        "image": "assets/mockups/anniversaries.jpg",
+        "alt": "Anniversary backdrop with a metallic 25, floral details and a styled table concept"
       },
       {
         "name": "Birthdays",
@@ -29,7 +33,9 @@ const content = {
           "Birthday backdrops",
           "Name & welcome signage",
           "Table decorations"
-        ]
+        ],
+        "image": "assets/mockups/birthdays.jpg",
+        "alt": "Colourful birthday backdrop with balloon clusters, cake pedestal and table styling concept"
       },
       {
         "name": "Engagements",
@@ -38,7 +44,9 @@ const content = {
           "Engagement backdrops",
           "Personalised signage",
           "Table decorations"
-        ]
+        ],
+        "image": "assets/mockups/engagements.jpg",
+        "alt": "Romantic engagement backdrop with flowers and acrylic welcome signage concept"
       },
       {
         "name": "Weddings",
@@ -47,7 +55,9 @@ const content = {
           "Wedding backdrops",
           "Welcome & event signage",
           "Table decorations"
-        ]
+        ],
+        "image": "assets/mockups/weddings.jpg",
+        "alt": "Contemporary wedding arches, soft florals, ivory fabric and welcome sign concept"
       },
       {
         "name": "Table decorations",
@@ -56,7 +66,9 @@ const content = {
           "Themed table styling",
           "Decorative table details",
           "Coordinated backdrop & signage styling"
-        ]
+        ],
+        "image": "assets/mockups/table-decorations.jpg",
+        "alt": "Pink event table styling with flowers, lime napkins and blue acrylic table number concept"
       }
     ],
     "cta": "Plan your personal event",
@@ -75,7 +87,9 @@ const content = {
           "Wall stickers",
           "Glass stickers",
           "Fridge stickers"
-        ]
+        ],
+        "image": "assets/mockups/stickers.jpg",
+        "alt": "Retail floor, wall, glass and fridge sticker graphics concept"
       },
       {
         "name": "Backdrops",
@@ -84,7 +98,9 @@ const content = {
           "Event & stage backdrops",
           "Branded photo backdrops",
           "Media walls"
-        ]
+        ],
+        "image": "assets/mockups/corporate-backdrops.jpg",
+        "alt": "Blue and lime corporate stage and media wall backdrop concept"
       },
       {
         "name": "Signboards",
@@ -95,21 +111,27 @@ const content = {
           "Back lit",
           "Aluminium",
           "Stainless steel"
-        ]
+        ],
+        "image": "assets/mockups/signboards.jpg",
+        "alt": "LED, front-lit, back-lit and metal signboard showroom concept"
       },
       {
         "name": "Acrylic signages",
         "description": "A clean finish for your message and branding.",
         "items": [
           "Custom acrylic signage"
-        ]
+        ],
+        "image": "assets/mockups/acrylic-signages.jpg",
+        "alt": "Clear acrylic sign mounted with metal standoffs and blue raised lettering concept"
       },
       {
         "name": "Window displays",
         "description": "Create an eye-catching moment for your storefront.",
         "items": [
           "Branded window displays"
-        ]
+        ],
+        "image": "assets/mockups/window-displays.jpg",
+        "alt": "Retail window graphics and sculptural display installation concept"
       },
       {
         "name": "Banners & display boards",
@@ -120,7 +142,9 @@ const content = {
           "Vinyl",
           "PVC",
           "Kapaline"
-        ]
+        ],
+        "image": "assets/mockups/banners-display-boards.jpg",
+        "alt": "Fabric and vinyl banners with rigid foam and PVC display boards concept"
       }
     ],
     "cta": "Plan your corporate project",
@@ -143,7 +167,13 @@ function setOccasion(key, focus = false) {
     const description = document.createElement('p'); description.textContent = category.description;
     const list = document.createElement('ul');
     list.append(...category.items.map(item => {const li = document.createElement('li'); li.textContent = item; return li;}));
-    card.append(heading, description, list); return card;
+    const preview = document.createElement('figure'); preview.className = 'occasion-category-preview';
+    const image = document.createElement('img'); image.src = category.image; image.alt = category.alt;
+    image.loading = 'lazy'; image.decoding = 'async'; image.width = 1200; image.height = 900;
+    const caption = document.createElement('figcaption'); caption.textContent = 'Concept preview';
+    preview.append(image, caption);
+    const body = document.createElement('div'); body.className = 'occasion-category-body';
+    body.append(heading, description, list); card.append(preview, body); return card;
   }));
   document.querySelector('#occasion-cta').textContent = data.cta;
   document.querySelector('#occasion-cta').href = 'lets-talk.html?occasion=' + key;
