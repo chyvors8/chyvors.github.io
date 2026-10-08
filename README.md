@@ -10,6 +10,16 @@ Enable GitHub Pages under **Settings → Pages → Source → GitHub Actions**. 
 
 The root entry point and relative asset paths support this project site at `https://chyvors8.github.io/chyvors.github.io/` once Pages is enabled.
 
+## Pages
+
+- Home: `docs/index.html`
+- What we do: `docs/what-we-do.html`
+- Your Occasion: `docs/your-occasion.html`
+- About Us: `docs/about-us.html`
+- Let’s Talk: `docs/lets-talk.html`
+
+Shared styles and navigation work at the project URL. The homepage service strip loops left to right, includes a pause control, and becomes static when reduced motion is requested.
+
 ## Content notes
 
 The background film is an illustrative 20-second animated montage of AI-generated design, fabrication, installation and finished-backdrop scenes. It is not footage of an actual team or client project. The remaining event image is also an AI-generated concept.
