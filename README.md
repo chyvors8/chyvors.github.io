@@ -25,3 +25,9 @@ Shared styles and navigation work at the project URL. The homepage service strip
 The background film is an illustrative 20-second animated montage of AI-generated design, fabrication, installation and finished-backdrop scenes. It is not footage of an actual team or client project. The remaining event image is also an AI-generated concept.
 
 The project enquiry form downloads a brief to the visitor's device. It does not send enquiries. Add real contact details before accepting customer enquiries.
+
+## Occasion and About backgrounds
+
+Built-in image generation created three illustrative scenes: a bright creative studio with sketches and lime/pink/orange/blue backdrop materials; a pastel celebration with arches, balloons, flowers and table styling; and a corporate activation with blue/lime panels, acrylic displays and illuminated signboard shapes. Prompts requested wide editorial photographs without people, logos or readable lettering.
+
+Saved assets: `docs/assets/creative-studio.jpg`, `personal-event-poster.jpg`, `corporate-event-poster.jpg`, `personal-event-loop.mp4` and `corporate-event-loop.mp4` (all in `docs/assets/`). The two 12-second silent H.264 videos animate the generated event scenes with a seamless camera pan; they are illustrative loops, not live event footage. Category switching selects the relevant film. Pause preferences persist when switching; reduced motion uses the poster image.
