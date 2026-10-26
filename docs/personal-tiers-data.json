@@ -5,6 +5,50 @@
       "name": "Baby showers",
       "themes": [
         {
+          "id": "little-star-post",
+          "name": "Little Star Post",
+          "description": "Special delivery from the moon, imagined through oversized postage-stamp graphics.",
+          "setting": "HDB function room · Front view",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-tiers/little-star-post.jpg"
+        },
+        {
+          "id": "tiny-transport-club",
+          "name": "Tiny Transport Club",
+          "description": "Original trains, buses and bold graphic routes for a cheerful little journey.",
+          "setting": "Neighbourhood café · Right-angle view",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-tiers/tiny-transport-club.jpg"
+        },
+        {
+          "id": "cloud-pony-picnic",
+          "name": "Cloud Pony Picnic",
+          "description": "Cloud-shaped panels and pastel pony illustrations with playful higher-tier accents.",
+          "setting": "Condo pavilion · Left-angle view",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-tiers/cloud-pony-picnic.jpg"
+        },
+        {
+          "id": "mini-monster-lab",
+          "name": "Mini Monster Lab",
+          "description": "A friendly monster world built from bubble windows and unexpected panel contours.",
+          "setting": "Creative studio · Wide right view",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-tiers/mini-monster-lab.jpg"
+        },
+        {
           "id": "baby-showers-essential",
           "name": "Little Garden Arrival",
           "description": "A simple personalised printed panel, with balloon accents that can be adapted to your theme.",
@@ -54,6 +98,50 @@
       "key": "anniversaries",
       "name": "Anniversaries",
       "themes": [
+        {
+          "id": "golden-chapter",
+          "name": "Golden Chapter",
+          "description": "An anniversary-edition ticket design with bold typography and warm golden-look print.",
+          "setting": "Restaurant alcove · Left-angle view",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-tiers/golden-chapter.jpg"
+        },
+        {
+          "id": "love-letters",
+          "name": "Love Letters",
+          "description": "Envelope-inspired print details and nostalgic postmarks that tell a shared story.",
+          "setting": "Tiong Bahru shophouse · Front view",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-tiers/love-letters.jpg"
+        },
+        {
+          "id": "moonlit-memories",
+          "name": "Moonlit Memories",
+          "description": "Crescent contours and a personalised memory timeline in a soft night palette.",
+          "setting": "Covered terrace · Right-angle view",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-tiers/moonlit-memories.jpg"
+        },
+        {
+          "id": "wonderland-storybook",
+          "name": "Wonderland Storybook",
+          "description": "An open-storybook silhouette with oversized illustrated page edges.",
+          "setting": "Sheltered courtyard · Wide left view",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-tiers/wonderland-storybook.jpg"
+        },
         {
           "id": "anniversaries-essential",
           "name": "Our Story",
@@ -105,6 +193,50 @@
       "name": "Birthdays",
       "themes": [
         {
+          "id": "seven-rainbow-racer",
+          "name": "Rainbow Racer · 7",
+          "description": "Graphic racing lines and bright balloon accents for a lively seventh birthday.",
+          "setting": "HDB community hall · Right-angle view",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-tiers/seven-rainbow-racer.jpg"
+        },
+        {
+          "id": "sixteen-sugar-pop",
+          "name": "Sugar Pop · 16",
+          "description": "Bold bows, checkerboard graphics and candy colours for turning sixteen.",
+          "setting": "Shophouse studio · Front view",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-tiers/sixteen-sugar-pop.jpg"
+        },
+        {
+          "id": "fifty-jewel-geometry",
+          "name": "Jewel Geometry · 50",
+          "description": "Jewel colours and Indian textile-inspired print for a distinctive fiftieth.",
+          "setting": "Community-centre foyer · Left-angle view",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-tiers/fifty-jewel-geometry.jpg"
+        },
+        {
+          "id": "eighty-stories",
+          "name": "Eighty Stories",
+          "description": "Scroll-shaped panels and peach illustrations celebrate eighty years of stories.",
+          "setting": "Restaurant foyer · Wide right view",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-tiers/eighty-stories.jpg"
+        },
+        {
           "id": "birthdays-essential",
           "name": "A Colourful Chapter",
           "description": "A simple personalised printed panel, with balloon accents that can be adapted to your theme.",
@@ -154,6 +286,50 @@
       "key": "engagements",
       "name": "Engagements",
       "themes": [
+        {
+          "id": "just-us-blue",
+          "name": "Just Us",
+          "description": "A striking two-tone print where negative space connects two halves of a heart.",
+          "setting": "Condo room · Front view",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-tiers/just-us-blue.jpg"
+        },
+        {
+          "id": "tea-and-promises",
+          "name": "Tea & Promises",
+          "description": "Peony illustrations and porcelain-inspired graphics for a contemporary engagement.",
+          "setting": "Katong shophouse · Left-angle view",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-tiers/tea-and-promises.jpg"
+        },
+        {
+          "id": "jasmine-promise",
+          "name": "Jasmine Promise",
+          "description": "Indian-inspired floral print and lattice contours in a rich, romantic palette.",
+          "setting": "Café event room · Right-angle view",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-tiers/jasmine-promise.jpg"
+        },
+        {
+          "id": "tunang-in-colour",
+          "name": "Tunang in Colour",
+          "description": "Songket-inspired geometry and layered scalloped silhouettes for an engagement scene.",
+          "setting": "Community-hall verandah · Wide left view",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-tiers/tunang-in-colour.jpg"
+        },
         {
           "id": "engagements-essential",
           "name": "Our Next Chapter",
@@ -205,6 +381,50 @@
       "name": "Weddings",
       "themes": [
         {
+          "id": "two-names-one-day",
+          "name": "Two Names, One Day",
+          "description": "An oversized graphic ampersand and flowing ribbon lines make one printed panel feel personal.",
+          "setting": "Restaurant reception · Left-angle view",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-tiers/two-names-one-day.jpg"
+        },
+        {
+          "id": "peranakan-paper-garden",
+          "name": "Peranakan Paper Garden",
+          "description": "Tile-edge contours and original orchid illustrations in a bright heritage palette.",
+          "setting": "Heritage gallery · Front view",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-tiers/peranakan-paper-garden.jpg"
+        },
+        {
+          "id": "modern-songket",
+          "name": "Modern Songket",
+          "description": "Sweeping panel contours and songket-inspired print with coordinated artificial greenery.",
+          "setting": "Garden pavilion · Right-angle view",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-tiers/modern-songket.jpg"
+        },
+        {
+          "id": "marigold-geometry",
+          "name": "Marigold Geometry",
+          "description": "Marigold-inspired print and fan-cut silhouettes create a distinctive wedding photo area.",
+          "setting": "Industrial event studio · Wide left view",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-tiers/marigold-geometry.jpg"
+        },
+        {
           "id": "weddings-essential",
           "name": "Modern Heritage",
           "description": "A simple personalised printed panel, with balloon accents that can be adapted to your theme.",
@@ -254,6 +474,50 @@
       "key": "table-decorations",
       "name": "Table decorations",
       "themes": [
+        {
+          "id": "citrus-notes",
+          "name": "Citrus Notes",
+          "description": "Bold citrus-shaped table details and colour-blocked stationery for a bright, playful tabletop.",
+          "setting": "Venue-supplied oak table · Angled view",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-tiers/citrus-notes.jpg"
+        },
+        {
+          "id": "kopi-keepsakes",
+          "name": "Kopi & Keepsakes",
+          "description": "Kopitiam-inspired illustrations across acrylic table numbering and coordinated stationery.",
+          "setting": "Venue-supplied café table · Low right view",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-tiers/kopi-keepsakes.jpg"
+        },
+        {
+          "id": "moonlight-acrylic",
+          "name": "Moonlight Acrylic",
+          "description": "Crescent-cut acrylic and shaped stationery with small artificial botanical accents.",
+          "setting": "Venue-supplied terrace table · High view",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-tiers/moonlight-acrylic.jpg"
+        },
+        {
+          "id": "heritage-paper-sculpture",
+          "name": "Heritage Paper Sculpture",
+          "description": "Custom shophouse-inspired printed centrepieces and shaped stationery for the tabletop.",
+          "setting": "Venue-supplied timber table · Angled view",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-tiers/heritage-paper-sculpture.jpg"
+        },
         {
           "id": "table-decorations-essential",
           "name": "Details That Match",
@@ -869,6 +1133,198 @@
     "assets/themes-refined/electric-play.jpg": {
       "small": "assets/themes-refined/electric-play-480.webp",
       "large": "assets/themes-refined/electric-play-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/little-star-post.jpg": {
+      "small": "assets/personal-tiers/little-star-post-480.webp",
+      "large": "assets/personal-tiers/little-star-post-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/tiny-transport-club.jpg": {
+      "small": "assets/personal-tiers/tiny-transport-club-480.webp",
+      "large": "assets/personal-tiers/tiny-transport-club-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/cloud-pony-picnic.jpg": {
+      "small": "assets/personal-tiers/cloud-pony-picnic-480.webp",
+      "large": "assets/personal-tiers/cloud-pony-picnic-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/mini-monster-lab.jpg": {
+      "small": "assets/personal-tiers/mini-monster-lab-480.webp",
+      "large": "assets/personal-tiers/mini-monster-lab-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/golden-chapter.jpg": {
+      "small": "assets/personal-tiers/golden-chapter-480.webp",
+      "large": "assets/personal-tiers/golden-chapter-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/love-letters.jpg": {
+      "small": "assets/personal-tiers/love-letters-480.webp",
+      "large": "assets/personal-tiers/love-letters-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/moonlit-memories.jpg": {
+      "small": "assets/personal-tiers/moonlit-memories-480.webp",
+      "large": "assets/personal-tiers/moonlit-memories-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/wonderland-storybook.jpg": {
+      "small": "assets/personal-tiers/wonderland-storybook-480.webp",
+      "large": "assets/personal-tiers/wonderland-storybook-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/seven-rainbow-racer.jpg": {
+      "small": "assets/personal-tiers/seven-rainbow-racer-480.webp",
+      "large": "assets/personal-tiers/seven-rainbow-racer-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/sixteen-sugar-pop.jpg": {
+      "small": "assets/personal-tiers/sixteen-sugar-pop-480.webp",
+      "large": "assets/personal-tiers/sixteen-sugar-pop-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/fifty-jewel-geometry.jpg": {
+      "small": "assets/personal-tiers/fifty-jewel-geometry-480.webp",
+      "large": "assets/personal-tiers/fifty-jewel-geometry-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/eighty-stories.jpg": {
+      "small": "assets/personal-tiers/eighty-stories-480.webp",
+      "large": "assets/personal-tiers/eighty-stories-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/just-us-blue.jpg": {
+      "small": "assets/personal-tiers/just-us-blue-480.webp",
+      "large": "assets/personal-tiers/just-us-blue-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/tea-and-promises.jpg": {
+      "small": "assets/personal-tiers/tea-and-promises-480.webp",
+      "large": "assets/personal-tiers/tea-and-promises-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/jasmine-promise.jpg": {
+      "small": "assets/personal-tiers/jasmine-promise-480.webp",
+      "large": "assets/personal-tiers/jasmine-promise-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/tunang-in-colour.jpg": {
+      "small": "assets/personal-tiers/tunang-in-colour-480.webp",
+      "large": "assets/personal-tiers/tunang-in-colour-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/two-names-one-day.jpg": {
+      "small": "assets/personal-tiers/two-names-one-day-480.webp",
+      "large": "assets/personal-tiers/two-names-one-day-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/peranakan-paper-garden.jpg": {
+      "small": "assets/personal-tiers/peranakan-paper-garden-480.webp",
+      "large": "assets/personal-tiers/peranakan-paper-garden-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/modern-songket.jpg": {
+      "small": "assets/personal-tiers/modern-songket-480.webp",
+      "large": "assets/personal-tiers/modern-songket-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/marigold-geometry.jpg": {
+      "small": "assets/personal-tiers/marigold-geometry-480.webp",
+      "large": "assets/personal-tiers/marigold-geometry-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/citrus-notes.jpg": {
+      "small": "assets/personal-tiers/citrus-notes-480.webp",
+      "large": "assets/personal-tiers/citrus-notes-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/kopi-keepsakes.jpg": {
+      "small": "assets/personal-tiers/kopi-keepsakes-480.webp",
+      "large": "assets/personal-tiers/kopi-keepsakes-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/moonlight-acrylic.jpg": {
+      "small": "assets/personal-tiers/moonlight-acrylic-480.webp",
+      "large": "assets/personal-tiers/moonlight-acrylic-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-tiers/heritage-paper-sculpture.jpg": {
+      "small": "assets/personal-tiers/heritage-paper-sculpture-480.webp",
+      "large": "assets/personal-tiers/heritage-paper-sculpture-960.webp",
       "smallWidth": 480,
       "largeWidth": 960,
       "width": 1448,
