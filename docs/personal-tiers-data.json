@@ -3,564 +3,1626 @@
     {
       "key": "baby-showers",
       "name": "Baby showers",
+      "replaceLegacy": true,
       "themes": [
         {
-          "id": "little-star-post",
-          "name": "Little Star Post",
-          "description": "Special delivery from the moon, imagined through oversized postage-stamp graphics.",
-          "setting": "HDB function room · Front view",
+          "id": "rt-baby-showers-1-essential",
+          "name": "Little Cloud Arrival",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "HDB function room",
           "tier": "essential",
           "tierName": "Essential",
           "tierNumber": 1,
           "tierExample": true,
-          "image": "assets/personal-tiers/little-star-post.jpg"
+          "image": "assets/personal-reference-tiers/rt-baby-showers-1-essential.jpg"
         },
         {
-          "id": "tiny-transport-club",
-          "name": "Tiny Transport Club",
-          "description": "Original trains, buses and bold graphic routes for a cheerful little journey.",
-          "setting": "Neighbourhood café · Right-angle view",
+          "id": "rt-baby-showers-1-signature",
+          "name": "Little Cloud Arrival",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "HDB function room",
           "tier": "signature",
           "tierName": "Signature",
           "tierNumber": 2,
           "tierExample": true,
-          "image": "assets/personal-tiers/tiny-transport-club.jpg"
+          "image": "assets/personal-reference-tiers/rt-baby-showers-1-signature.jpg"
         },
         {
-          "id": "cloud-pony-picnic",
-          "name": "Cloud Pony Picnic",
-          "description": "Cloud-shaped panels and pastel pony illustrations with playful higher-tier accents.",
-          "setting": "Condo pavilion · Left-angle view",
+          "id": "rt-baby-showers-1-premium",
+          "name": "Little Cloud Arrival",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "HDB function room",
           "tier": "premium",
           "tierName": "Premium",
           "tierNumber": 3,
           "tierExample": true,
-          "image": "assets/personal-tiers/cloud-pony-picnic.jpg"
+          "image": "assets/personal-reference-tiers/rt-baby-showers-1-premium.jpg"
         },
         {
-          "id": "mini-monster-lab",
-          "name": "Mini Monster Lab",
-          "description": "A friendly monster world built from bubble windows and unexpected panel contours.",
-          "setting": "Creative studio · Wide right view",
+          "id": "rt-baby-showers-1-bespoke",
+          "name": "Little Cloud Arrival",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "HDB function room",
           "tier": "bespoke",
           "tierName": "Bespoke",
           "tierNumber": 4,
           "tierExample": true,
-          "image": "assets/personal-tiers/mini-monster-lab.jpg"
+          "image": "assets/personal-reference-tiers/rt-baby-showers-1-bespoke.jpg"
         },
         {
-          "id": "baby-showers-essential",
-          "name": "Little Garden Arrival",
-          "description": "A simple personalised printed panel, with balloon accents that can be adapted to your theme.",
-          "setting": "HDB function room · Left three-quarter view",
+          "id": "rt-baby-showers-2-essential",
+          "name": "Pocket Dino Welcome",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Neighbourhood café private corner",
           "tier": "essential",
           "tierName": "Essential",
           "tierNumber": 1,
           "tierExample": true,
-          "image": "assets/personal-tiers/baby-showers-essential.jpg"
+          "image": "assets/personal-reference-tiers/rt-baby-showers-2-essential.jpg"
         },
         {
-          "id": "baby-showers-signature",
-          "name": "Little Garden Arrival",
-          "description": "A shaped main panel, matching signage and printed details, with balloon accents and a cylinder pedestal where shown.",
-          "setting": "Neighbourhood café · Low right-angle view",
+          "id": "rt-baby-showers-2-signature",
+          "name": "Pocket Dino Welcome",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Neighbourhood café private corner",
           "tier": "signature",
           "tierName": "Signature",
           "tierNumber": 2,
           "tierExample": true,
-          "image": "assets/personal-tiers/baby-showers-signature.jpg"
+          "image": "assets/personal-reference-tiers/rt-baby-showers-2-signature.jpg"
         },
         {
-          "id": "baby-showers-premium",
-          "name": "Little Garden Arrival",
-          "description": "Creative contours and mixed panel heights, coordinated with cylinder pedestals, balloons and theme-appropriate artificial plant or soft-toy accents.",
-          "setting": "Sheltered East Coast pavilion · Wide front view",
+          "id": "rt-baby-showers-2-premium",
+          "name": "Pocket Dino Welcome",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Neighbourhood café private corner",
           "tier": "premium",
           "tierName": "Premium",
           "tierNumber": 3,
           "tierExample": true,
-          "image": "assets/personal-tiers/baby-showers-premium.jpg"
+          "image": "assets/personal-reference-tiers/rt-baby-showers-2-premium.jpg"
         },
         {
-          "id": "baby-showers-bespoke",
-          "name": "Little Garden Arrival",
-          "description": "A distinctive custom silhouette and layered print layout, with coordinated signage, cylinder pedestals and theme-appropriate decorative accents.",
-          "setting": "Condo lounge · Left-angle view",
+          "id": "rt-baby-showers-2-bespoke",
+          "name": "Pocket Dino Welcome",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Neighbourhood café private corner",
           "tier": "bespoke",
           "tierName": "Bespoke",
           "tierNumber": 4,
           "tierExample": true,
-          "image": "assets/personal-tiers/baby-showers-bespoke.jpg"
+          "image": "assets/personal-reference-tiers/rt-baby-showers-2-bespoke.jpg"
+        },
+        {
+          "id": "rt-baby-showers-3-essential",
+          "name": "Tiny Train Station",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Condo clubhouse with timber louvers",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-baby-showers-3-essential.jpg"
+        },
+        {
+          "id": "rt-baby-showers-3-signature",
+          "name": "Tiny Train Station",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Condo clubhouse with timber louvers",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-baby-showers-3-signature.jpg"
+        },
+        {
+          "id": "rt-baby-showers-3-premium",
+          "name": "Tiny Train Station",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Condo clubhouse with timber louvers",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-baby-showers-3-premium.jpg"
+        },
+        {
+          "id": "rt-baby-showers-3-bespoke",
+          "name": "Tiny Train Station",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Condo clubhouse with timber louvers",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-baby-showers-3-bespoke.jpg"
+        },
+        {
+          "id": "rt-baby-showers-4-essential",
+          "name": "Pony Cloud Parade",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Sheltered coastal pavilion",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-baby-showers-4-essential.jpg"
+        },
+        {
+          "id": "rt-baby-showers-4-signature",
+          "name": "Pony Cloud Parade",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Sheltered coastal pavilion",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-baby-showers-4-signature.jpg"
+        },
+        {
+          "id": "rt-baby-showers-4-premium",
+          "name": "Pony Cloud Parade",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Sheltered coastal pavilion",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-baby-showers-4-premium.jpg"
+        },
+        {
+          "id": "rt-baby-showers-4-bespoke",
+          "name": "Pony Cloud Parade",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Sheltered coastal pavilion",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-baby-showers-4-bespoke.jpg"
+        },
+        {
+          "id": "rt-baby-showers-5-essential",
+          "name": "Wonder Nest Paperworld",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Bright converted shophouse studio",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-baby-showers-5-essential.jpg"
+        },
+        {
+          "id": "rt-baby-showers-5-signature",
+          "name": "Wonder Nest Paperworld",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Bright converted shophouse studio",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-baby-showers-5-signature.jpg"
+        },
+        {
+          "id": "rt-baby-showers-5-premium",
+          "name": "Wonder Nest Paperworld",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Bright converted shophouse studio",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-baby-showers-5-premium.jpg"
+        },
+        {
+          "id": "rt-baby-showers-5-bespoke",
+          "name": "Wonder Nest Paperworld",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Bright converted shophouse studio",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-baby-showers-5-bespoke.jpg"
+        },
+        {
+          "id": "rt-baby-showers-6-essential",
+          "name": "Mini Monster Colour Lab",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Industrial creative studio",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-baby-showers-6-essential.jpg"
+        },
+        {
+          "id": "rt-baby-showers-6-signature",
+          "name": "Mini Monster Colour Lab",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Industrial creative studio",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-baby-showers-6-signature.jpg"
+        },
+        {
+          "id": "rt-baby-showers-6-premium",
+          "name": "Mini Monster Colour Lab",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Industrial creative studio",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-baby-showers-6-premium.jpg"
+        },
+        {
+          "id": "rt-baby-showers-6-bespoke",
+          "name": "Mini Monster Colour Lab",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Industrial creative studio",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-baby-showers-6-bespoke.jpg"
         }
       ]
     },
     {
       "key": "anniversaries",
       "name": "Anniversaries",
+      "replaceLegacy": true,
       "themes": [
         {
-          "id": "golden-chapter",
-          "name": "Golden Chapter",
-          "description": "An anniversary-edition ticket design with bold typography and warm golden-look print.",
-          "setting": "Restaurant alcove · Left-angle view",
+          "id": "rt-anniversaries-1-essential",
+          "name": "Our First Ticket",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Intimate singapore café corner",
           "tier": "essential",
           "tierName": "Essential",
           "tierNumber": 1,
           "tierExample": true,
-          "image": "assets/personal-tiers/golden-chapter.jpg"
+          "image": "assets/personal-reference-tiers/rt-anniversaries-1-essential.jpg"
         },
         {
-          "id": "love-letters",
-          "name": "Love Letters",
-          "description": "Envelope-inspired print details and nostalgic postmarks that tell a shared story.",
-          "setting": "Tiong Bahru shophouse · Front view",
+          "id": "rt-anniversaries-1-signature",
+          "name": "Our First Ticket",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Intimate singapore café corner",
           "tier": "signature",
           "tierName": "Signature",
           "tierNumber": 2,
           "tierExample": true,
-          "image": "assets/personal-tiers/love-letters.jpg"
+          "image": "assets/personal-reference-tiers/rt-anniversaries-1-signature.jpg"
         },
         {
-          "id": "moonlit-memories",
-          "name": "Moonlit Memories",
-          "description": "Crescent contours and a personalised memory timeline in a soft night palette.",
-          "setting": "Covered terrace · Right-angle view",
+          "id": "rt-anniversaries-1-premium",
+          "name": "Our First Ticket",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Intimate singapore café corner",
           "tier": "premium",
           "tierName": "Premium",
           "tierNumber": 3,
           "tierExample": true,
-          "image": "assets/personal-tiers/moonlit-memories.jpg"
+          "image": "assets/personal-reference-tiers/rt-anniversaries-1-premium.jpg"
         },
         {
-          "id": "wonderland-storybook",
-          "name": "Wonderland Storybook",
-          "description": "An open-storybook silhouette with oversized illustrated page edges.",
-          "setting": "Sheltered courtyard · Wide left view",
+          "id": "rt-anniversaries-1-bespoke",
+          "name": "Our First Ticket",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Intimate singapore café corner",
           "tier": "bespoke",
           "tierName": "Bespoke",
           "tierNumber": 4,
           "tierExample": true,
-          "image": "assets/personal-tiers/wonderland-storybook.jpg"
+          "image": "assets/personal-reference-tiers/rt-anniversaries-1-bespoke.jpg"
         },
         {
-          "id": "anniversaries-essential",
-          "name": "Our Story",
-          "description": "A simple personalised printed panel, with balloon accents that can be adapted to your theme.",
-          "setting": "Tiong Bahru shophouse · Front view",
+          "id": "rt-anniversaries-2-essential",
+          "name": "Golden Years Garden",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Condo function room",
           "tier": "essential",
           "tierName": "Essential",
           "tierNumber": 1,
           "tierExample": true,
-          "image": "assets/personal-tiers/anniversaries-essential.jpg"
+          "image": "assets/personal-reference-tiers/rt-anniversaries-2-essential.jpg"
         },
         {
-          "id": "anniversaries-signature",
-          "name": "Our Story",
-          "description": "A shaped main panel, matching signage and printed details, with balloon accents and a cylinder pedestal where shown.",
-          "setting": "Restaurant alcove · Right three-quarter view",
+          "id": "rt-anniversaries-2-signature",
+          "name": "Golden Years Garden",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Condo function room",
           "tier": "signature",
           "tierName": "Signature",
           "tierNumber": 2,
           "tierExample": true,
-          "image": "assets/personal-tiers/anniversaries-signature.jpg"
+          "image": "assets/personal-reference-tiers/rt-anniversaries-2-signature.jpg"
         },
         {
-          "id": "anniversaries-premium",
-          "name": "Our Story",
-          "description": "Creative contours and mixed panel heights, coordinated with cylinder pedestals, balloons and theme-appropriate artificial plant or soft-toy accents.",
-          "setting": "Community-club terrace · Left-angle view",
+          "id": "rt-anniversaries-2-premium",
+          "name": "Golden Years Garden",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Condo function room",
           "tier": "premium",
           "tierName": "Premium",
           "tierNumber": 3,
           "tierExample": true,
-          "image": "assets/personal-tiers/anniversaries-premium.jpg"
+          "image": "assets/personal-reference-tiers/rt-anniversaries-2-premium.jpg"
         },
         {
-          "id": "anniversaries-bespoke",
-          "name": "Our Story",
-          "description": "A distinctive custom silhouette and layered print layout, with coordinated signage, cylinder pedestals and theme-appropriate decorative accents.",
-          "setting": "Creative studio · Low front view",
+          "id": "rt-anniversaries-2-bespoke",
+          "name": "Golden Years Garden",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Condo function room",
           "tier": "bespoke",
           "tierName": "Bespoke",
           "tierNumber": 4,
           "tierExample": true,
-          "image": "assets/personal-tiers/anniversaries-bespoke.jpg"
+          "image": "assets/personal-reference-tiers/rt-anniversaries-2-bespoke.jpg"
+        },
+        {
+          "id": "rt-anniversaries-3-essential",
+          "name": "Letters We Keep",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Restored shophouse private room",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-anniversaries-3-essential.jpg"
+        },
+        {
+          "id": "rt-anniversaries-3-signature",
+          "name": "Letters We Keep",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Restored shophouse private room",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-anniversaries-3-signature.jpg"
+        },
+        {
+          "id": "rt-anniversaries-3-premium",
+          "name": "Letters We Keep",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Restored shophouse private room",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-anniversaries-3-premium.jpg"
+        },
+        {
+          "id": "rt-anniversaries-3-bespoke",
+          "name": "Letters We Keep",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Restored shophouse private room",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-anniversaries-3-bespoke.jpg"
+        },
+        {
+          "id": "rt-anniversaries-4-essential",
+          "name": "Moonlit Chapters",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Hotel private function room",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-anniversaries-4-essential.jpg"
+        },
+        {
+          "id": "rt-anniversaries-4-signature",
+          "name": "Moonlit Chapters",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Hotel private function room",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-anniversaries-4-signature.jpg"
+        },
+        {
+          "id": "rt-anniversaries-4-premium",
+          "name": "Moonlit Chapters",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Hotel private function room",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-anniversaries-4-premium.jpg"
+        },
+        {
+          "id": "rt-anniversaries-4-bespoke",
+          "name": "Moonlit Chapters",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Hotel private function room",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-anniversaries-4-bespoke.jpg"
+        },
+        {
+          "id": "rt-anniversaries-5-essential",
+          "name": "The Story Ribbon",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Riverfront event gallery",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-anniversaries-5-essential.jpg"
+        },
+        {
+          "id": "rt-anniversaries-5-signature",
+          "name": "The Story Ribbon",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Riverfront event gallery",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-anniversaries-5-signature.jpg"
+        },
+        {
+          "id": "rt-anniversaries-5-premium",
+          "name": "The Story Ribbon",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Riverfront event gallery",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-anniversaries-5-premium.jpg"
+        },
+        {
+          "id": "rt-anniversaries-5-bespoke",
+          "name": "The Story Ribbon",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Riverfront event gallery",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-anniversaries-5-bespoke.jpg"
+        },
+        {
+          "id": "rt-anniversaries-6-essential",
+          "name": "Wonderland of Us",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "White civic gallery event space",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-anniversaries-6-essential.jpg"
+        },
+        {
+          "id": "rt-anniversaries-6-signature",
+          "name": "Wonderland of Us",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "White civic gallery event space",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-anniversaries-6-signature.jpg"
+        },
+        {
+          "id": "rt-anniversaries-6-premium",
+          "name": "Wonderland of Us",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "White civic gallery event space",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-anniversaries-6-premium.jpg"
+        },
+        {
+          "id": "rt-anniversaries-6-bespoke",
+          "name": "Wonderland of Us",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "White civic gallery event space",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-anniversaries-6-bespoke.jpg"
         }
       ]
     },
     {
       "key": "birthdays",
       "name": "Birthdays",
+      "replaceLegacy": true,
       "themes": [
         {
-          "id": "seven-rainbow-racer",
-          "name": "Rainbow Racer · 7",
-          "description": "Graphic racing lines and bright balloon accents for a lively seventh birthday.",
-          "setting": "HDB community hall · Right-angle view",
+          "id": "rt-birthdays-1-essential",
+          "name": "Carousel Cloud Birthday",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Condo function room with terrazzo and garden windows",
           "tier": "essential",
           "tierName": "Essential",
           "tierNumber": 1,
           "tierExample": true,
-          "image": "assets/personal-tiers/seven-rainbow-racer.jpg"
+          "image": "assets/personal-reference-tiers/rt-birthdays-1-essential.jpg"
         },
         {
-          "id": "sixteen-sugar-pop",
-          "name": "Sugar Pop · 16",
-          "description": "Bold bows, checkerboard graphics and candy colours for turning sixteen.",
-          "setting": "Shophouse studio · Front view",
+          "id": "rt-birthdays-1-signature",
+          "name": "Carousel Cloud Birthday",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Condo function room with terrazzo and garden windows",
           "tier": "signature",
           "tierName": "Signature",
           "tierNumber": 2,
           "tierExample": true,
-          "image": "assets/personal-tiers/sixteen-sugar-pop.jpg"
+          "image": "assets/personal-reference-tiers/rt-birthdays-1-signature.jpg"
         },
         {
-          "id": "fifty-jewel-geometry",
-          "name": "Jewel Geometry · 50",
-          "description": "Jewel colours and Indian textile-inspired print for a distinctive fiftieth.",
-          "setting": "Community-centre foyer · Left-angle view",
+          "id": "rt-birthdays-1-premium",
+          "name": "Carousel Cloud Birthday",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Condo function room with terrazzo and garden windows",
           "tier": "premium",
           "tierName": "Premium",
           "tierNumber": 3,
           "tierExample": true,
-          "image": "assets/personal-tiers/fifty-jewel-geometry.jpg"
+          "image": "assets/personal-reference-tiers/rt-birthdays-1-premium.jpg"
         },
         {
-          "id": "eighty-stories",
+          "id": "rt-birthdays-1-bespoke",
+          "name": "Carousel Cloud Birthday",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Condo function room with terrazzo and garden windows",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-birthdays-1-bespoke.jpg"
+        },
+        {
+          "id": "rt-birthdays-2-essential",
+          "name": "Race Day Seven",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "HDB community function room",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-birthdays-2-essential.jpg"
+        },
+        {
+          "id": "rt-birthdays-2-signature",
+          "name": "Race Day Seven",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "HDB community function room",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-birthdays-2-signature.jpg"
+        },
+        {
+          "id": "rt-birthdays-2-premium",
+          "name": "Race Day Seven",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "HDB community function room",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-birthdays-2-premium.jpg"
+        },
+        {
+          "id": "rt-birthdays-2-bespoke",
+          "name": "Race Day Seven",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "HDB community function room",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-birthdays-2-bespoke.jpg"
+        },
+        {
+          "id": "rt-birthdays-3-essential",
+          "name": "Sweet Sixteen Pop",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Urban creative café",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-birthdays-3-essential.jpg"
+        },
+        {
+          "id": "rt-birthdays-3-signature",
+          "name": "Sweet Sixteen Pop",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Urban creative café",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-birthdays-3-signature.jpg"
+        },
+        {
+          "id": "rt-birthdays-3-premium",
+          "name": "Sweet Sixteen Pop",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Urban creative café",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-birthdays-3-premium.jpg"
+        },
+        {
+          "id": "rt-birthdays-3-bespoke",
+          "name": "Sweet Sixteen Pop",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Urban creative café",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-birthdays-3-bespoke.jpg"
+        },
+        {
+          "id": "rt-birthdays-4-essential",
+          "name": "Jewel Fifty",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Indian restaurant private event corner with cream plaster and dark stone floor",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-birthdays-4-essential.jpg"
+        },
+        {
+          "id": "rt-birthdays-4-signature",
+          "name": "Jewel Fifty",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Indian restaurant private event corner with cream plaster and dark stone floor",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-birthdays-4-signature.jpg"
+        },
+        {
+          "id": "rt-birthdays-4-premium",
+          "name": "Jewel Fifty",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Indian restaurant private event corner with cream plaster and dark stone floor",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-birthdays-4-premium.jpg"
+        },
+        {
+          "id": "rt-birthdays-4-bespoke",
+          "name": "Jewel Fifty",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Indian restaurant private event corner with cream plaster and dark stone floor",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-birthdays-4-bespoke.jpg"
+        },
+        {
+          "id": "rt-birthdays-5-essential",
           "name": "Eighty Stories",
-          "description": "Scroll-shaped panels and peach illustrations celebrate eighty years of stories.",
-          "setting": "Restaurant foyer · Wide right view",
-          "tier": "bespoke",
-          "tierName": "Bespoke",
-          "tierNumber": 4,
-          "tierExample": true,
-          "image": "assets/personal-tiers/eighty-stories.jpg"
-        },
-        {
-          "id": "birthdays-essential",
-          "name": "A Colourful Chapter",
-          "description": "A simple personalised printed panel, with balloon accents that can be adapted to your theme.",
-          "setting": "HDB community hall · Right-angle view",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Heritage chinese clan-association function hall with timber screens and pale tile",
           "tier": "essential",
           "tierName": "Essential",
           "tierNumber": 1,
           "tierExample": true,
-          "image": "assets/personal-tiers/birthdays-essential.jpg"
+          "image": "assets/personal-reference-tiers/rt-birthdays-5-essential.jpg"
         },
         {
-          "id": "birthdays-signature",
-          "name": "A Colourful Chapter",
-          "description": "A shaped main panel, matching signage and printed details, with balloon accents and a cylinder pedestal where shown.",
-          "setting": "Condo function room · Front view",
+          "id": "rt-birthdays-5-signature",
+          "name": "Eighty Stories",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Heritage chinese clan-association function hall with timber screens and pale tile",
           "tier": "signature",
           "tierName": "Signature",
           "tierNumber": 2,
           "tierExample": true,
-          "image": "assets/personal-tiers/birthdays-signature.jpg"
+          "image": "assets/personal-reference-tiers/rt-birthdays-5-signature.jpg"
         },
         {
-          "id": "birthdays-premium",
-          "name": "A Colourful Chapter",
-          "description": "Creative contours and mixed panel heights, coordinated with cylinder pedestals, balloons and theme-appropriate artificial plant or soft-toy accents.",
-          "setting": "Sheltered void deck · Left three-quarter view",
+          "id": "rt-birthdays-5-premium",
+          "name": "Eighty Stories",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Heritage chinese clan-association function hall with timber screens and pale tile",
           "tier": "premium",
           "tierName": "Premium",
           "tierNumber": 3,
           "tierExample": true,
-          "image": "assets/personal-tiers/birthdays-premium.jpg"
+          "image": "assets/personal-reference-tiers/rt-birthdays-5-premium.jpg"
         },
         {
-          "id": "birthdays-bespoke",
-          "name": "A Colourful Chapter",
-          "description": "A distinctive custom silhouette and layered print layout, with coordinated signage, cylinder pedestals and theme-appropriate decorative accents.",
-          "setting": "Shophouse arts studio · Wide right view",
+          "id": "rt-birthdays-5-bespoke",
+          "name": "Eighty Stories",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Heritage chinese clan-association function hall with timber screens and pale tile",
           "tier": "bespoke",
           "tierName": "Bespoke",
           "tierNumber": 4,
           "tierExample": true,
-          "image": "assets/personal-tiers/birthdays-bespoke.jpg"
+          "image": "assets/personal-reference-tiers/rt-birthdays-5-bespoke.jpg"
+        },
+        {
+          "id": "rt-birthdays-6-essential",
+          "name": "Neon Level Twenty One",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Singapore urban art studio with raw concrete wall and large side windows",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-birthdays-6-essential.jpg"
+        },
+        {
+          "id": "rt-birthdays-6-signature",
+          "name": "Neon Level Twenty One",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Singapore urban art studio with raw concrete wall and large side windows",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-birthdays-6-signature.jpg"
+        },
+        {
+          "id": "rt-birthdays-6-premium",
+          "name": "Neon Level Twenty One",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Singapore urban art studio with raw concrete wall and large side windows",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-birthdays-6-premium.jpg"
+        },
+        {
+          "id": "rt-birthdays-6-bespoke",
+          "name": "Neon Level Twenty One",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Singapore urban art studio with raw concrete wall and large side windows",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-birthdays-6-bespoke.jpg"
         }
       ]
     },
     {
       "key": "engagements",
       "name": "Engagements",
+      "replaceLegacy": true,
       "themes": [
         {
-          "id": "just-us-blue",
-          "name": "Just Us",
-          "description": "A striking two-tone print where negative space connects two halves of a heart.",
-          "setting": "Condo room · Front view",
+          "id": "rt-engagements-1-essential",
+          "name": "Just Us in Blue",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Neighbourhood café with cream wall and dark grey tile",
           "tier": "essential",
           "tierName": "Essential",
           "tierNumber": 1,
           "tierExample": true,
-          "image": "assets/personal-tiers/just-us-blue.jpg"
+          "image": "assets/personal-reference-tiers/rt-engagements-1-essential.jpg"
         },
         {
-          "id": "tea-and-promises",
-          "name": "Tea & Promises",
-          "description": "Peony illustrations and porcelain-inspired graphics for a contemporary engagement.",
-          "setting": "Katong shophouse · Left-angle view",
+          "id": "rt-engagements-1-signature",
+          "name": "Just Us in Blue",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Neighbourhood café with cream wall and dark grey tile",
           "tier": "signature",
           "tierName": "Signature",
           "tierNumber": 2,
           "tierExample": true,
-          "image": "assets/personal-tiers/tea-and-promises.jpg"
+          "image": "assets/personal-reference-tiers/rt-engagements-1-signature.jpg"
         },
         {
-          "id": "jasmine-promise",
+          "id": "rt-engagements-1-premium",
+          "name": "Just Us in Blue",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Neighbourhood café with cream wall and dark grey tile",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-engagements-1-premium.jpg"
+        },
+        {
+          "id": "rt-engagements-1-bespoke",
+          "name": "Just Us in Blue",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Neighbourhood café with cream wall and dark grey tile",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-engagements-1-bespoke.jpg"
+        },
+        {
+          "id": "rt-engagements-2-essential",
+          "name": "The Proposal Postcard",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Condo clubhouse with rattan-pattern wall finish and stone floor",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-engagements-2-essential.jpg"
+        },
+        {
+          "id": "rt-engagements-2-signature",
+          "name": "The Proposal Postcard",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Condo clubhouse with rattan-pattern wall finish and stone floor",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-engagements-2-signature.jpg"
+        },
+        {
+          "id": "rt-engagements-2-premium",
+          "name": "The Proposal Postcard",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Condo clubhouse with rattan-pattern wall finish and stone floor",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-engagements-2-premium.jpg"
+        },
+        {
+          "id": "rt-engagements-2-bespoke",
+          "name": "The Proposal Postcard",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Condo clubhouse with rattan-pattern wall finish and stone floor",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-engagements-2-bespoke.jpg"
+        },
+        {
+          "id": "rt-engagements-3-essential",
+          "name": "Tea and Promises",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Heritage shophouse event room with green shutters and patterned tile",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-engagements-3-essential.jpg"
+        },
+        {
+          "id": "rt-engagements-3-signature",
+          "name": "Tea and Promises",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Heritage shophouse event room with green shutters and patterned tile",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-engagements-3-signature.jpg"
+        },
+        {
+          "id": "rt-engagements-3-premium",
+          "name": "Tea and Promises",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Heritage shophouse event room with green shutters and patterned tile",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-engagements-3-premium.jpg"
+        },
+        {
+          "id": "rt-engagements-3-bespoke",
+          "name": "Tea and Promises",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Heritage shophouse event room with green shutters and patterned tile",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-engagements-3-bespoke.jpg"
+        },
+        {
+          "id": "rt-engagements-4-essential",
           "name": "Jasmine Promise",
-          "description": "Indian-inspired floral print and lattice contours in a rich, romantic palette.",
-          "setting": "Café event room · Right-angle view",
-          "tier": "premium",
-          "tierName": "Premium",
-          "tierNumber": 3,
-          "tierExample": true,
-          "image": "assets/personal-tiers/jasmine-promise.jpg"
-        },
-        {
-          "id": "tunang-in-colour",
-          "name": "Tunang in Colour",
-          "description": "Songket-inspired geometry and layered scalloped silhouettes for an engagement scene.",
-          "setting": "Community-hall verandah · Wide left view",
-          "tier": "bespoke",
-          "tierName": "Bespoke",
-          "tierNumber": 4,
-          "tierExample": true,
-          "image": "assets/personal-tiers/tunang-in-colour.jpg"
-        },
-        {
-          "id": "engagements-essential",
-          "name": "Our Next Chapter",
-          "description": "A simple personalised printed panel, with balloon accents that can be adapted to your theme.",
-          "setting": "Rooftop function room · Left-angle view",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Private restaurant event room with warm plaster and pale stone floor",
           "tier": "essential",
           "tierName": "Essential",
           "tierNumber": 1,
           "tierExample": true,
-          "image": "assets/personal-tiers/engagements-essential.jpg"
+          "image": "assets/personal-reference-tiers/rt-engagements-4-essential.jpg"
         },
         {
-          "id": "engagements-signature",
-          "name": "Our Next Chapter",
-          "description": "A shaped main panel, matching signage and printed details, with balloon accents and a cylinder pedestal where shown.",
-          "setting": "Katong shophouse · Front view",
+          "id": "rt-engagements-4-signature",
+          "name": "Jasmine Promise",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Private restaurant event room with warm plaster and pale stone floor",
           "tier": "signature",
           "tierName": "Signature",
           "tierNumber": 2,
           "tierExample": true,
-          "image": "assets/personal-tiers/engagements-signature.jpg"
+          "image": "assets/personal-reference-tiers/rt-engagements-4-signature.jpg"
         },
         {
-          "id": "engagements-premium",
-          "name": "Our Next Chapter",
-          "description": "Creative contours and mixed panel heights, coordinated with cylinder pedestals, balloons and theme-appropriate artificial plant or soft-toy accents.",
-          "setting": "Community-garden pavilion · Right-angle view",
+          "id": "rt-engagements-4-premium",
+          "name": "Jasmine Promise",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Private restaurant event room with warm plaster and pale stone floor",
           "tier": "premium",
           "tierName": "Premium",
           "tierNumber": 3,
           "tierExample": true,
-          "image": "assets/personal-tiers/engagements-premium.jpg"
+          "image": "assets/personal-reference-tiers/rt-engagements-4-premium.jpg"
         },
         {
-          "id": "engagements-bespoke",
-          "name": "Our Next Chapter",
-          "description": "A distinctive custom silhouette and layered print layout, with coordinated signage, cylinder pedestals and theme-appropriate decorative accents.",
-          "setting": "Café event corner · Left-angle view",
+          "id": "rt-engagements-4-bespoke",
+          "name": "Jasmine Promise",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Private restaurant event room with warm plaster and pale stone floor",
           "tier": "bespoke",
           "tierName": "Bespoke",
           "tierNumber": 4,
           "tierExample": true,
-          "image": "assets/personal-tiers/engagements-bespoke.jpg"
+          "image": "assets/personal-reference-tiers/rt-engagements-4-bespoke.jpg"
+        },
+        {
+          "id": "rt-engagements-5-essential",
+          "name": "Tunang Colour Weave",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Malay heritage event room with timber lattice and tiled floor",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-engagements-5-essential.jpg"
+        },
+        {
+          "id": "rt-engagements-5-signature",
+          "name": "Tunang Colour Weave",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Malay heritage event room with timber lattice and tiled floor",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-engagements-5-signature.jpg"
+        },
+        {
+          "id": "rt-engagements-5-premium",
+          "name": "Tunang Colour Weave",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Malay heritage event room with timber lattice and tiled floor",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-engagements-5-premium.jpg"
+        },
+        {
+          "id": "rt-engagements-5-bespoke",
+          "name": "Tunang Colour Weave",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Malay heritage event room with timber lattice and tiled floor",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-engagements-5-bespoke.jpg"
+        },
+        {
+          "id": "rt-engagements-6-essential",
+          "name": "Two Paths One Heart",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Bright singapore design gallery with high white wall and concrete floor",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-engagements-6-essential.jpg"
+        },
+        {
+          "id": "rt-engagements-6-signature",
+          "name": "Two Paths One Heart",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Bright singapore design gallery with high white wall and concrete floor",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-engagements-6-signature.jpg"
+        },
+        {
+          "id": "rt-engagements-6-premium",
+          "name": "Two Paths One Heart",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Bright singapore design gallery with high white wall and concrete floor",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-engagements-6-premium.jpg"
+        },
+        {
+          "id": "rt-engagements-6-bespoke",
+          "name": "Two Paths One Heart",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Bright singapore design gallery with high white wall and concrete floor",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-engagements-6-bespoke.jpg"
         }
       ]
     },
     {
       "key": "weddings",
       "name": "Weddings",
+      "replaceLegacy": true,
       "themes": [
         {
-          "id": "two-names-one-day",
-          "name": "Two Names, One Day",
-          "description": "An oversized graphic ampersand and flowing ribbon lines make one printed panel feel personal.",
-          "setting": "Restaurant reception · Left-angle view",
+          "id": "rt-weddings-1-essential",
+          "name": "Two Names One Day",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Private celebration room with white wall and terrazzo floor",
           "tier": "essential",
           "tierName": "Essential",
           "tierNumber": 1,
           "tierExample": true,
-          "image": "assets/personal-tiers/two-names-one-day.jpg"
+          "image": "assets/personal-reference-tiers/rt-weddings-1-essential.jpg"
         },
         {
-          "id": "peranakan-paper-garden",
+          "id": "rt-weddings-1-signature",
+          "name": "Two Names One Day",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Private celebration room with white wall and terrazzo floor",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-weddings-1-signature.jpg"
+        },
+        {
+          "id": "rt-weddings-1-premium",
+          "name": "Two Names One Day",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Private celebration room with white wall and terrazzo floor",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-weddings-1-premium.jpg"
+        },
+        {
+          "id": "rt-weddings-1-bespoke",
+          "name": "Two Names One Day",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Private celebration room with white wall and terrazzo floor",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-weddings-1-bespoke.jpg"
+        },
+        {
+          "id": "rt-weddings-2-essential",
+          "name": "Modern Red Double Joy",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Restaurant private function corner with timber screen and stone floor",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-weddings-2-essential.jpg"
+        },
+        {
+          "id": "rt-weddings-2-signature",
+          "name": "Modern Red Double Joy",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Restaurant private function corner with timber screen and stone floor",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-weddings-2-signature.jpg"
+        },
+        {
+          "id": "rt-weddings-2-premium",
+          "name": "Modern Red Double Joy",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Restaurant private function corner with timber screen and stone floor",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-weddings-2-premium.jpg"
+        },
+        {
+          "id": "rt-weddings-2-bespoke",
+          "name": "Modern Red Double Joy",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Restaurant private function corner with timber screen and stone floor",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-weddings-2-bespoke.jpg"
+        },
+        {
+          "id": "rt-weddings-3-essential",
           "name": "Peranakan Paper Garden",
-          "description": "Tile-edge contours and original orchid illustrations in a bright heritage palette.",
-          "setting": "Heritage gallery · Front view",
-          "tier": "signature",
-          "tierName": "Signature",
-          "tierNumber": 2,
-          "tierExample": true,
-          "image": "assets/personal-tiers/peranakan-paper-garden.jpg"
-        },
-        {
-          "id": "modern-songket",
-          "name": "Modern Songket",
-          "description": "Sweeping panel contours and songket-inspired print with coordinated artificial greenery.",
-          "setting": "Garden pavilion · Right-angle view",
-          "tier": "premium",
-          "tierName": "Premium",
-          "tierNumber": 3,
-          "tierExample": true,
-          "image": "assets/personal-tiers/modern-songket.jpg"
-        },
-        {
-          "id": "marigold-geometry",
-          "name": "Marigold Geometry",
-          "description": "Marigold-inspired print and fan-cut silhouettes create a distinctive wedding photo area.",
-          "setting": "Industrial event studio · Wide left view",
-          "tier": "bespoke",
-          "tierName": "Bespoke",
-          "tierNumber": 4,
-          "tierExample": true,
-          "image": "assets/personal-tiers/marigold-geometry.jpg"
-        },
-        {
-          "id": "weddings-essential",
-          "name": "Modern Heritage",
-          "description": "A simple personalised printed panel, with balloon accents that can be adapted to your theme.",
-          "setting": "Restaurant foyer · Front view",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Restored joo chiat-style shophouse room with patterned tile and pale shutters",
           "tier": "essential",
           "tierName": "Essential",
           "tierNumber": 1,
           "tierExample": true,
-          "image": "assets/personal-tiers/weddings-essential.jpg"
+          "image": "assets/personal-reference-tiers/rt-weddings-3-essential.jpg"
         },
         {
-          "id": "weddings-signature",
-          "name": "Modern Heritage",
-          "description": "A shaped main panel, matching signage and printed details, with balloon accents and a cylinder pedestal where shown.",
-          "setting": "Community-hall verandah · Left-angle view",
+          "id": "rt-weddings-3-signature",
+          "name": "Peranakan Paper Garden",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Restored joo chiat-style shophouse room with patterned tile and pale shutters",
           "tier": "signature",
           "tierName": "Signature",
           "tierNumber": 2,
           "tierExample": true,
-          "image": "assets/personal-tiers/weddings-signature.jpg"
+          "image": "assets/personal-reference-tiers/rt-weddings-3-signature.jpg"
         },
         {
-          "id": "weddings-premium",
-          "name": "Modern Heritage",
-          "description": "Creative contours and mixed panel heights, coordinated with cylinder pedestals, balloons and theme-appropriate artificial plant or soft-toy accents.",
-          "setting": "Community-centre foyer · Right-angle view",
+          "id": "rt-weddings-3-premium",
+          "name": "Peranakan Paper Garden",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Restored joo chiat-style shophouse room with patterned tile and pale shutters",
           "tier": "premium",
           "tierName": "Premium",
           "tierNumber": 3,
           "tierExample": true,
-          "image": "assets/personal-tiers/weddings-premium.jpg"
+          "image": "assets/personal-reference-tiers/rt-weddings-3-premium.jpg"
         },
         {
-          "id": "weddings-bespoke",
-          "name": "Modern Heritage",
-          "description": "A distinctive custom silhouette and layered print layout, with coordinated signage, cylinder pedestals and theme-appropriate decorative accents.",
-          "setting": "Peranakan gallery corner · Left-angle view",
+          "id": "rt-weddings-3-bespoke",
+          "name": "Peranakan Paper Garden",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Restored joo chiat-style shophouse room with patterned tile and pale shutters",
           "tier": "bespoke",
           "tierName": "Bespoke",
           "tierNumber": 4,
           "tierExample": true,
-          "image": "assets/personal-tiers/weddings-bespoke.jpg"
+          "image": "assets/personal-reference-tiers/rt-weddings-3-bespoke.jpg"
+        },
+        {
+          "id": "rt-weddings-4-essential",
+          "name": "Modern Songket",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Community wedding function room with pale stone floor and tall side windows",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-weddings-4-essential.jpg"
+        },
+        {
+          "id": "rt-weddings-4-signature",
+          "name": "Modern Songket",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Community wedding function room with pale stone floor and tall side windows",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-weddings-4-signature.jpg"
+        },
+        {
+          "id": "rt-weddings-4-premium",
+          "name": "Modern Songket",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Community wedding function room with pale stone floor and tall side windows",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-weddings-4-premium.jpg"
+        },
+        {
+          "id": "rt-weddings-4-bespoke",
+          "name": "Modern Songket",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Community wedding function room with pale stone floor and tall side windows",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-weddings-4-bespoke.jpg"
+        },
+        {
+          "id": "rt-weddings-5-essential",
+          "name": "Marigold Geometry",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Indian heritage event gallery with cream columns and terracotta floor",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-weddings-5-essential.jpg"
+        },
+        {
+          "id": "rt-weddings-5-signature",
+          "name": "Marigold Geometry",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Indian heritage event gallery with cream columns and terracotta floor",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-weddings-5-signature.jpg"
+        },
+        {
+          "id": "rt-weddings-5-premium",
+          "name": "Marigold Geometry",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Indian heritage event gallery with cream columns and terracotta floor",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-weddings-5-premium.jpg"
+        },
+        {
+          "id": "rt-weddings-5-bespoke",
+          "name": "Marigold Geometry",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Indian heritage event gallery with cream columns and terracotta floor",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-weddings-5-bespoke.jpg"
+        },
+        {
+          "id": "rt-weddings-6-essential",
+          "name": "Paper Wave Vows",
+          "description": "A personalised arch, full balloon garland, cylinder pedestal and matching flat cutout.",
+          "setting": "Modern waterfront function gallery with blue-grey floor and harbour glimpses",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-weddings-6-essential.jpg"
+        },
+        {
+          "id": "rt-weddings-6-signature",
+          "name": "Paper Wave Vows",
+          "description": "A shaped two-panel composition with coordinated print, balloons and a cylinder pedestal.",
+          "setting": "Modern waterfront function gallery with blue-grey floor and harbour glimpses",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-weddings-6-signature.jpg"
+        },
+        {
+          "id": "rt-weddings-6-premium",
+          "name": "Paper Wave Vows",
+          "description": "Layered custom contours, fuller balloons and coordinated higher-tier accents.",
+          "setting": "Modern waterfront function gallery with blue-grey floor and harbour glimpses",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-weddings-6-premium.jpg"
+        },
+        {
+          "id": "rt-weddings-6-bespoke",
+          "name": "Paper Wave Vows",
+          "description": "Inventive silhouettes, negative-space details and a larger coordinated composition.",
+          "setting": "Modern waterfront function gallery with blue-grey floor and harbour glimpses",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-weddings-6-bespoke.jpg"
         }
       ]
     },
     {
       "key": "table-decorations",
       "name": "Table decorations",
+      "replaceLegacy": true,
       "themes": [
         {
-          "id": "citrus-notes",
-          "name": "Citrus Notes",
-          "description": "Bold citrus-shaped table details and colour-blocked stationery for a bright, playful tabletop.",
-          "setting": "Venue-supplied oak table · Angled view",
+          "id": "rt-table-decorations-1-essential",
+          "name": "Citrus Celebration Notes",
+          "description": "Coordinated printed table signs and name cards, with a small balloon accent.",
+          "setting": "Venue-supplied table · Simple printed details",
           "tier": "essential",
           "tierName": "Essential",
           "tierNumber": 1,
           "tierExample": true,
-          "image": "assets/personal-tiers/citrus-notes.jpg"
+          "image": "assets/personal-reference-tiers/rt-table-decorations-1-essential.jpg"
         },
         {
-          "id": "kopi-keepsakes",
-          "name": "Kopi & Keepsakes",
-          "description": "Kopitiam-inspired illustrations across acrylic table numbering and coordinated stationery.",
-          "setting": "Venue-supplied café table · Low right view",
+          "id": "rt-table-decorations-1-signature",
+          "name": "Citrus Celebration Notes",
+          "description": "Shaped table signs, layered print and personalised name tags.",
+          "setting": "Venue-supplied table · Personalised layered signs",
           "tier": "signature",
           "tierName": "Signature",
           "tierNumber": 2,
           "tierExample": true,
-          "image": "assets/personal-tiers/kopi-keepsakes.jpg"
+          "image": "assets/personal-reference-tiers/rt-table-decorations-1-signature.jpg"
         },
         {
-          "id": "moonlight-acrylic",
+          "id": "rt-table-decorations-1-premium",
+          "name": "Citrus Celebration Notes",
+          "description": "Layered acrylic details, matching name tags and restrained artificial foliage.",
+          "setting": "Venue-supplied table · Coordinated acrylic details",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-table-decorations-1-premium.jpg"
+        },
+        {
+          "id": "rt-table-decorations-1-bespoke",
+          "name": "Citrus Celebration Notes",
+          "description": "Custom interlocking tabletop silhouettes with coordinated personalised details.",
+          "setting": "Venue-supplied table · Custom tabletop composition",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-table-decorations-1-bespoke.jpg"
+        },
+        {
+          "id": "rt-table-decorations-2-essential",
+          "name": "Blush Bow Details",
+          "description": "Coordinated printed table signs and name cards, with a small balloon accent.",
+          "setting": "Venue-supplied table · Simple printed details",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-table-decorations-2-essential.jpg"
+        },
+        {
+          "id": "rt-table-decorations-2-signature",
+          "name": "Blush Bow Details",
+          "description": "Shaped table signs, layered print and personalised name tags.",
+          "setting": "Venue-supplied table · Personalised layered signs",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-table-decorations-2-signature.jpg"
+        },
+        {
+          "id": "rt-table-decorations-2-premium",
+          "name": "Blush Bow Details",
+          "description": "Layered acrylic details, matching name tags and restrained artificial foliage.",
+          "setting": "Venue-supplied table · Coordinated acrylic details",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-table-decorations-2-premium.jpg"
+        },
+        {
+          "id": "rt-table-decorations-2-bespoke",
+          "name": "Blush Bow Details",
+          "description": "Custom interlocking tabletop silhouettes with coordinated personalised details.",
+          "setting": "Venue-supplied table · Custom tabletop composition",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-table-decorations-2-bespoke.jpg"
+        },
+        {
+          "id": "rt-table-decorations-3-essential",
+          "name": "Kopi Keepsakes",
+          "description": "Coordinated printed table signs and name cards, with a small balloon accent.",
+          "setting": "Venue-supplied table · Simple printed details",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-table-decorations-3-essential.jpg"
+        },
+        {
+          "id": "rt-table-decorations-3-signature",
+          "name": "Kopi Keepsakes",
+          "description": "Shaped table signs, layered print and personalised name tags.",
+          "setting": "Venue-supplied table · Personalised layered signs",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-table-decorations-3-signature.jpg"
+        },
+        {
+          "id": "rt-table-decorations-3-premium",
+          "name": "Kopi Keepsakes",
+          "description": "Layered acrylic details, matching name tags and restrained artificial foliage.",
+          "setting": "Venue-supplied table · Coordinated acrylic details",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-table-decorations-3-premium.jpg"
+        },
+        {
+          "id": "rt-table-decorations-3-bespoke",
+          "name": "Kopi Keepsakes",
+          "description": "Custom interlocking tabletop silhouettes with coordinated personalised details.",
+          "setting": "Venue-supplied table · Custom tabletop composition",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-table-decorations-3-bespoke.jpg"
+        },
+        {
+          "id": "rt-table-decorations-4-essential",
           "name": "Moonlight Acrylic",
-          "description": "Crescent-cut acrylic and shaped stationery with small artificial botanical accents.",
-          "setting": "Venue-supplied terrace table · High view",
-          "tier": "premium",
-          "tierName": "Premium",
-          "tierNumber": 3,
-          "tierExample": true,
-          "image": "assets/personal-tiers/moonlight-acrylic.jpg"
-        },
-        {
-          "id": "heritage-paper-sculpture",
-          "name": "Heritage Paper Sculpture",
-          "description": "Custom shophouse-inspired printed centrepieces and shaped stationery for the tabletop.",
-          "setting": "Venue-supplied timber table · Angled view",
-          "tier": "bespoke",
-          "tierName": "Bespoke",
-          "tierNumber": 4,
-          "tierExample": true,
-          "image": "assets/personal-tiers/heritage-paper-sculpture.jpg"
-        },
-        {
-          "id": "table-decorations-essential",
-          "name": "Details That Match",
-          "description": "A small coordinated printed table-number and menu-card set. The plain table is venue-supplied.",
-          "setting": "Condo room · Angled tabletop view",
+          "description": "Coordinated printed table signs and name cards, with a small balloon accent.",
+          "setting": "Venue-supplied table · Simple printed details",
           "tier": "essential",
           "tierName": "Essential",
           "tierNumber": 1,
           "tierExample": true,
-          "image": "assets/personal-tiers/table-decorations-essential.jpg"
+          "image": "assets/personal-reference-tiers/rt-table-decorations-4-essential.jpg"
         },
         {
-          "id": "table-decorations-signature",
-          "name": "Details That Match",
-          "description": "Personalised acrylic table numbering with matching menus, place cards and flat printed tabletop details.",
-          "setting": "Shophouse café · Low tabletop view",
+          "id": "rt-table-decorations-4-signature",
+          "name": "Moonlight Acrylic",
+          "description": "Shaped table signs, layered print and personalised name tags.",
+          "setting": "Venue-supplied table · Personalised layered signs",
           "tier": "signature",
           "tierName": "Signature",
           "tierNumber": 2,
           "tierExample": true,
-          "image": "assets/personal-tiers/table-decorations-signature.jpg"
+          "image": "assets/personal-reference-tiers/rt-table-decorations-4-signature.jpg"
         },
         {
-          "id": "table-decorations-premium",
-          "name": "Details That Match",
-          "description": "Layered table signage and coordinated printed stationery with small artificial botanical accents.",
-          "setting": "Covered terrace · High tabletop view",
+          "id": "rt-table-decorations-4-premium",
+          "name": "Moonlight Acrylic",
+          "description": "Layered acrylic details, matching name tags and restrained artificial foliage.",
+          "setting": "Venue-supplied table · Coordinated acrylic details",
           "tier": "premium",
           "tierName": "Premium",
           "tierNumber": 3,
           "tierExample": true,
-          "image": "assets/personal-tiers/table-decorations-premium.jpg"
+          "image": "assets/personal-reference-tiers/rt-table-decorations-4-premium.jpg"
         },
         {
-          "id": "table-decorations-bespoke",
-          "name": "Details That Match",
-          "description": "Custom die-cut acrylic and shaped stationery, original illustrated tabletop pieces and small artificial botanical accents.",
-          "setting": "Restaurant room · Three-quarter tabletop view",
+          "id": "rt-table-decorations-4-bespoke",
+          "name": "Moonlight Acrylic",
+          "description": "Custom interlocking tabletop silhouettes with coordinated personalised details.",
+          "setting": "Venue-supplied table · Custom tabletop composition",
           "tier": "bespoke",
           "tierName": "Bespoke",
           "tierNumber": 4,
           "tierExample": true,
-          "image": "assets/personal-tiers/table-decorations-bespoke.jpg"
+          "image": "assets/personal-reference-tiers/rt-table-decorations-4-bespoke.jpg"
+        },
+        {
+          "id": "rt-table-decorations-5-essential",
+          "name": "Heritage Paper Sculpture",
+          "description": "Coordinated printed table signs and name cards, with a small balloon accent.",
+          "setting": "Venue-supplied table · Simple printed details",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-table-decorations-5-essential.jpg"
+        },
+        {
+          "id": "rt-table-decorations-5-signature",
+          "name": "Heritage Paper Sculpture",
+          "description": "Shaped table signs, layered print and personalised name tags.",
+          "setting": "Venue-supplied table · Personalised layered signs",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-table-decorations-5-signature.jpg"
+        },
+        {
+          "id": "rt-table-decorations-5-premium",
+          "name": "Heritage Paper Sculpture",
+          "description": "Layered acrylic details, matching name tags and restrained artificial foliage.",
+          "setting": "Venue-supplied table · Coordinated acrylic details",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-table-decorations-5-premium.jpg"
+        },
+        {
+          "id": "rt-table-decorations-5-bespoke",
+          "name": "Heritage Paper Sculpture",
+          "description": "Custom interlocking tabletop silhouettes with coordinated personalised details.",
+          "setting": "Venue-supplied table · Custom tabletop composition",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-table-decorations-5-bespoke.jpg"
+        },
+        {
+          "id": "rt-table-decorations-6-essential",
+          "name": "Orbit of Names",
+          "description": "Coordinated printed table signs and name cards, with a small balloon accent.",
+          "setting": "Venue-supplied table · Simple printed details",
+          "tier": "essential",
+          "tierName": "Essential",
+          "tierNumber": 1,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-table-decorations-6-essential.jpg"
+        },
+        {
+          "id": "rt-table-decorations-6-signature",
+          "name": "Orbit of Names",
+          "description": "Shaped table signs, layered print and personalised name tags.",
+          "setting": "Venue-supplied table · Personalised layered signs",
+          "tier": "signature",
+          "tierName": "Signature",
+          "tierNumber": 2,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-table-decorations-6-signature.jpg"
+        },
+        {
+          "id": "rt-table-decorations-6-premium",
+          "name": "Orbit of Names",
+          "description": "Layered acrylic details, matching name tags and restrained artificial foliage.",
+          "setting": "Venue-supplied table · Coordinated acrylic details",
+          "tier": "premium",
+          "tierName": "Premium",
+          "tierNumber": 3,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-table-decorations-6-premium.jpg"
+        },
+        {
+          "id": "rt-table-decorations-6-bespoke",
+          "name": "Orbit of Names",
+          "description": "Custom interlocking tabletop silhouettes with coordinated personalised details.",
+          "setting": "Venue-supplied table · Custom tabletop composition",
+          "tier": "bespoke",
+          "tierName": "Bespoke",
+          "tierNumber": 4,
+          "tierExample": true,
+          "image": "assets/personal-reference-tiers/rt-table-decorations-6-bespoke.jpg"
         }
       ]
     }
@@ -1325,6 +2387,1158 @@
     "assets/personal-tiers/heritage-paper-sculpture.jpg": {
       "small": "assets/personal-tiers/heritage-paper-sculpture-480.webp",
       "large": "assets/personal-tiers/heritage-paper-sculpture-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-1-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-1-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-1-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-1-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-1-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-1-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-1-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-1-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-1-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-1-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-1-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-1-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-2-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-2-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-2-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-2-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-2-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-2-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-2-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-2-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-2-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-2-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-2-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-2-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-3-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-3-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-3-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-3-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-3-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-3-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-3-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-3-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-3-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-3-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-3-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-3-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-4-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-4-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-4-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-4-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-4-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-4-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-4-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-4-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-4-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-4-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-4-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-4-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-5-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-5-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-5-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-5-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-5-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-5-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-5-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-5-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-5-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-5-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-5-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-5-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-6-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-6-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-6-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-6-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-6-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-6-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-6-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-6-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-6-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-baby-showers-6-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-baby-showers-6-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-baby-showers-6-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-1-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-1-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-1-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-1-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-1-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-1-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-1-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-1-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-1-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-1-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-1-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-1-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-2-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-2-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-2-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-2-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-2-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-2-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-2-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-2-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-2-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-2-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-2-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-2-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-3-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-3-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-3-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-3-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-3-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-3-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-3-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-3-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-3-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-3-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-3-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-3-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-4-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-4-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-4-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-4-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-4-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-4-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-4-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-4-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-4-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-4-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-4-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-4-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-5-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-5-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-5-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-5-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-5-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-5-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-5-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-5-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-5-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-5-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-5-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-5-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-6-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-6-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-6-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-6-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-6-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-6-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-6-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-6-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-6-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-anniversaries-6-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-anniversaries-6-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-anniversaries-6-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-1-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-1-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-1-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-1-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-1-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-1-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-1-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-1-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-1-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-1-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-1-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-1-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-2-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-2-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-2-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-2-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-2-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-2-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-2-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-2-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-2-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-2-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-2-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-2-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-3-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-3-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-3-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-3-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-3-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-3-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-3-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-3-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-3-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-3-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-3-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-3-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-4-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-4-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-4-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-4-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-4-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-4-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-4-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-4-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-4-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-4-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-4-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-4-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-5-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-5-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-5-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-5-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-5-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-5-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-5-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-5-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-5-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-5-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-5-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-5-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-6-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-6-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-6-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-6-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-6-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-6-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-6-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-6-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-6-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-birthdays-6-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-birthdays-6-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-birthdays-6-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-1-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-1-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-1-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-1-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-1-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-1-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-1-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-1-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-1-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-1-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-1-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-1-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-2-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-2-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-2-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-2-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-2-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-2-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-2-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-2-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-2-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-2-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-2-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-2-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-3-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-3-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-3-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-3-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-3-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-3-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-3-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-3-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-3-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-3-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-3-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-3-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-4-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-4-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-4-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-4-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-4-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-4-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-4-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-4-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-4-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-4-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-4-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-4-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-5-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-5-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-5-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-5-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-5-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-5-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-5-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-5-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-5-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-5-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-5-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-5-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-6-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-6-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-6-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-6-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-6-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-6-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-6-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-6-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-6-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-engagements-6-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-engagements-6-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-engagements-6-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-1-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-1-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-1-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-1-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-1-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-1-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-1-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-1-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-1-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-1-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-1-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-1-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-2-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-2-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-2-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-2-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-2-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-2-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-2-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-2-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-2-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-2-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-2-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-2-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-3-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-3-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-3-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-3-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-3-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-3-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-3-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-3-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-3-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-3-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-3-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-3-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-4-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-4-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-4-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-4-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-4-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-4-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-4-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-4-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-4-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-4-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-4-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-4-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-5-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-5-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-5-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-5-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-5-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-5-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-5-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-5-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-5-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-5-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-5-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-5-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-6-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-6-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-6-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-6-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-6-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-6-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-6-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-6-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-6-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-weddings-6-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-weddings-6-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-weddings-6-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-1-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-1-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-1-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-1-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-1-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-1-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-1-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-1-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-1-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-1-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-1-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-1-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-2-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-2-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-2-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-2-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-2-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-2-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-2-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-2-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-2-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-2-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-2-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-2-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-3-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-3-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-3-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-3-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-3-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-3-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-3-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-3-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-3-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-3-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-3-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-3-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-4-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-4-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-4-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-4-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-4-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-4-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-4-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-4-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-4-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-4-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-4-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-4-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-5-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-5-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-5-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-5-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-5-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-5-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-5-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-5-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-5-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-5-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-5-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-5-bespoke-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-6-essential.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-6-essential-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-6-essential-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-6-signature.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-6-signature-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-6-signature-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-6-premium.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-6-premium-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-6-premium-960.webp",
+      "smallWidth": 480,
+      "largeWidth": 960,
+      "width": 1448,
+      "height": 1086
+    },
+    "assets/personal-reference-tiers/rt-table-decorations-6-bespoke.jpg": {
+      "small": "assets/personal-reference-tiers/rt-table-decorations-6-bespoke-480.webp",
+      "large": "assets/personal-reference-tiers/rt-table-decorations-6-bespoke-960.webp",
       "smallWidth": 480,
       "largeWidth": 960,
       "width": 1448,

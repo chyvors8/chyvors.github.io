@@ -462,12 +462,12 @@ window.backdroppedThemes = [
     ]
   }
 ];
-// Tier examples lead the comparison; existing personal concepts remain Bespoke inspiration.
+// Reference-based tier collections may replace earlier personal previews without deleting archived assets.
 for (const collection of window.backdroppedThemes) {
   const examples = window.backdroppedPersonalTiers?.find(c => c.key === collection.key);
   if (!examples) continue;
   collection.tierExamples = examples.themes;
-  collection.themes = [...examples.themes, ...collection.themes.map(theme => ({ ...theme, tier: 'bespoke', tierName: 'Bespoke', tierNumber: 4, image: window.backdroppedRefinedPersonalImages?.[theme.id] || theme.image }))];
+  collection.themes = examples.replaceLegacy ? [...examples.themes] : [...examples.themes, ...collection.themes.map(theme => ({ ...theme, tier: 'bespoke', tierName: 'Bespoke', tierNumber: 4, image: window.backdroppedRefinedPersonalImages?.[theme.id] || theme.image }))];
 }
 window.backdroppedThemes.push(...(window.backdroppedCorporateThemes || []));
 (function () {
@@ -709,7 +709,7 @@ window.backdroppedThemes.push(...(window.backdroppedCorporateThemes || []));
   if (occasion === 'personal' && window.backdroppedPersonalTiers) {
     const guide = document.createElement('section'); guide.className = 'personal-tier-guide';
     guide.setAttribute('aria-label', 'Compare personal event tiers');
-    guide.innerHTML = '<p class="eyebrow">FOUR WAYS TO MAKE IT YOURS</p><h2>Simple beginnings. Creative possibilities.</h2><div class="personal-tier-overview"><div><span>Tier 1</span><h3>Essential</h3><p>A simple printed backdrop with optional balloon accents, or a small coordinated table-detail set.</p></div><div><span>Tier 2</span><h3>Signature</h3><p>Personalised artwork, shaped panels, matching print and balloon accents.</p></div><div><span>Tier 3</span><h3>Premium</h3><p>Different heights and creative contours, with artificial plants or soft toys where they suit the theme.</p></div><div><span>Tier 4</span><h3>Bespoke</h3><p>Distinctive custom silhouettes, larger compositions and coordinated balloons, artificial plants or soft toys.</p></div></div><p class="personal-tier-options"><strong>Balloons:</strong> available across all tiers. <strong>Artificial plants &amp; soft toys:</strong> Premium and Bespoke, where they suit your theme.</p><p class="personal-tier-scope">We focus on backdrops, signage, stickers, balloons, cylinder pedestal stands and optional table decorations. Images are illustrative concepts, not fixed package inclusions. Other furniture, venue styling, catering and table hire are not supplied. A plain venue-supplied table may be shown for table-decoration examples. Final items, dimensions and installation scope are confirmed in your quotation.</p>';
+    guide.innerHTML = '<p class="eyebrow">FOUR WAYS TO MAKE IT YOURS</p><h2>Simple beginnings. Creative possibilities.</h2><div class="personal-tier-overview"><div><span>Tier 1</span><h3>Essential</h3><p>One personalised arch, a full balloon garland, a cylinder pedestal and a matching flat cutout. Table-decoration concepts use a compact coordinated print set.</p></div><div><span>Tier 2</span><h3>Signature</h3><p>A coordinated two-panel backdrop with shaped outlines, personalised print, balloons and a cylinder pedestal. Or a more detailed tabletop sign set.</p></div><div><span>Tier 3</span><h3>Premium</h3><p>Three layered custom panels, fuller balloons and coordinated cylinder pedestals, with artificial plants or soft toys where appropriate. Tabletop ideas add layered acrylic details.</p></div><div><span>Tier 4</span><h3>Bespoke</h3><p>Inventive silhouettes, clever cutout windows and larger coordinated compositions. Tabletop ideas explore custom interlocking shapes. Decorative accents suit the theme.</p></div></div><p class="personal-tier-options"><strong>Balloons:</strong> available across all tiers. <strong>Artificial plants &amp; soft toys:</strong> Premium and Bespoke, where they suit your theme.</p><p class="personal-tier-scope">We focus on backdrops, signage, stickers, balloons, cylinder pedestal stands and optional table decorations. Images are illustrative concepts, not fixed package inclusions. Other furniture, venue styling, catering and table hire are not supplied. A plain venue-supplied table may be shown for table-decoration examples. Final items, dimensions and installation scope are confirmed in your quotation.</p>';
     tierButtons = document.createElement('div'); tierButtons.className = 'theme-filters personal-tier-filters'; tierButtons.setAttribute('aria-label', 'Filter by tier');
     for (const [key, label] of [['compare','Explore all tiers'],['essential','Tier 1 · Essential'],['signature','Tier 2 · Signature'],['premium','Tier 3 · Premium'],['bespoke','Tier 4 · Bespoke ideas']]) {
       const button = document.createElement('button'); button.type = 'button'; button.textContent = label; button.dataset.tier = key;
@@ -717,7 +717,7 @@ window.backdroppedThemes.push(...(window.backdroppedCorporateThemes || []));
     }
     guide.append(tierButtons); filters.after(guide);
     const galleryHint = document.querySelector('.theme-gallery-note span:last-child');
-    if (galleryHint) galleryHint.textContent = 'Explore the tiers, then open any concept for a closer look.';
+    if (galleryHint) galleryHint.textContent = 'Explore six themes across four tiers, then open any concept for a closer look.';
   }
   const dialog = document.querySelector('#theme-dialog');
   let lastOpener;
