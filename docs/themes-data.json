@@ -9,56 +9,80 @@
         "name": "Pink Dreamhouse",
         "description": "A fashion-doll-inspired welcome in a bright condo clubhouse.",
         "setting": "Condo clubhouse · Pink, lilac & chrome",
-        "image": "assets/themes/pink-dreamhouse.jpg"
+        "image": "assets/themes-refined/pink-dreamhouse.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "little-dino-garden",
         "name": "Little Dino Garden",
         "description": "Friendly dinosaurs meet soft tropical greens.",
         "setting": "Garden pavilion · Sage, peach & sunshine",
-        "image": "assets/themes/little-dino-garden.jpg"
+        "image": "assets/themes-refined/little-dino-garden.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "tiny-train-adventure",
         "name": "Tiny Train Adventure",
         "description": "A cheerful little journey with a local transport wink.",
         "setting": "Community event hall · Blue, orange & cream",
-        "image": "assets/themes/tiny-train-adventure.jpg"
+        "image": "assets/themes-refined/tiny-train-adventure.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "pony-cloud-parade",
         "name": "Pony Cloud Parade",
         "description": "Pastel ponies, clouds and a touch of magic.",
         "setting": "Poolside function room · Lilac, mint & blush",
-        "image": "assets/themes/pony-cloud-parade.jpg"
+        "image": "assets/themes-refined/pony-cloud-parade.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "little-cartoon-town",
         "name": "Little Cartoon Town",
         "description": "An original storybook neighbourhood for a little arrival.",
         "setting": "Shophouse studio · Coral, yellow & aqua",
-        "image": "assets/themes/little-cartoon-town.jpg"
+        "image": "assets/themes-refined/little-cartoon-town.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "up-up-baby",
         "name": "Up, Up & Baby",
-        "description": "Hot-air balloons and soft skies by the coast.",
+        "description": "Hot-air-balloon illustrations and soft printed skies by the coast.",
         "setting": "East Coast pavilion · Sky blue, peach & ivory",
-        "image": "assets/themes/up-up-baby.jpg"
+        "image": "assets/themes-refined/up-up-baby.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "mini-monster-party",
         "name": "Mini Monster Party",
         "description": "Big smiles from tiny, friendly monsters.",
         "setting": "HDB function space · Lime, pink & cobalt",
-        "image": "assets/themes/mini-monster-party.jpg"
+        "image": "assets/themes-refined/mini-monster-party.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "starlight-anime-baby",
         "name": "Starlight Anime Baby",
         "description": "A dreamy anime-inspired sky with original characters.",
         "setting": "Creative loft · Blue, lilac & silver",
-        "image": "assets/themes/starlight-anime-baby.jpg"
+        "image": "assets/themes-refined/starlight-anime-baby.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       }
     ]
   },
@@ -72,42 +96,60 @@
         "name": "Memory Lane",
         "description": "A photo-gallery-inspired celebration of shared chapters.",
         "setting": "Heritage shophouse · Warm ivory & terracotta",
-        "image": "assets/themes/memory-lane.jpg"
+        "image": "assets/themes-refined/memory-lane.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "rooftop-romance",
         "name": "Rooftop Romance",
-        "description": "A candlelit evening above the city.",
+        "description": "Layered silhouettes and warm printed colours for a romantic city backdrop.",
         "setting": "City rooftop · Blush, burgundy & gold",
-        "image": "assets/themes/rooftop-romance.jpg"
+        "image": "assets/themes-refined/rooftop-romance.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "orchid-garden",
         "name": "Orchid Garden",
-        "description": "A lush floral celebration inspired by the tropics.",
+        "description": "Orchid-inspired print, botanical contours and artificial plant accents.",
         "setting": "Glasshouse conservatory · Orchid, white & fern",
-        "image": "assets/themes/orchid-garden.jpg"
+        "image": "assets/themes-refined/orchid-garden.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "enchanted-wonderland",
         "name": "Enchanted Wonderland",
-        "description": "An immersive garden with playful scale.",
+        "description": "Oversized illustrated garden shapes with playful scale.",
         "setting": "Indoor garden venue · Moss, lavender & peach",
-        "image": "assets/themes/enchanted-wonderland.jpg"
+        "image": "assets/themes-refined/enchanted-wonderland.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "peranakan-love-story",
         "name": "Peranakan Love Story",
         "description": "Heritage colour and delicate floral details.",
         "setting": "Katong courtyard · Turquoise, coral & gold",
-        "image": "assets/themes/peranakan-love-story.jpg"
+        "image": "assets/themes-refined/peranakan-love-story.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "coastal-chapters",
         "name": "Coastal Chapters",
         "description": "A relaxed anniversary with sea-breeze colours.",
         "setting": "Sentosa terrace · Sand, seafoam & ivory",
-        "image": "assets/themes/coastal-chapters.jpg"
+        "image": "assets/themes-refined/coastal-chapters.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       }
     ]
   },
@@ -121,70 +163,100 @@
         "name": "7 · Dino Explorers",
         "description": "A playful adventure for energetic little explorers.",
         "setting": "Age 7 · Condo garden · Lime & orange",
-        "image": "assets/themes/seven-dino-explorers.jpg"
+        "image": "assets/themes-refined/seven-dino-explorers.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "ten-space-cadets",
         "name": "10 · Space Cadets",
         "description": "A launchpad for big imaginations.",
         "setting": "Age 10 · Community club · Cobalt & silver",
-        "image": "assets/themes/ten-space-cadets.jpg"
+        "image": "assets/themes-refined/ten-space-cadets.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "sixteen-anime-city",
         "name": "16 · Anime City",
         "description": "An original anime-inspired world with urban energy.",
         "setting": "Age 16 · Creative loft · Pink & neon blue",
-        "image": "assets/themes/sixteen-anime-city.jpg"
+        "image": "assets/themes-refined/sixteen-anime-city.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "twenty-one-city-lights",
         "name": "21 · City Lights",
         "description": "A polished coming-of-age celebration.",
         "setting": "Age 21 · Marina-view lounge · Blue & chrome",
-        "image": "assets/themes/twenty-one-city-lights.jpg"
+        "image": "assets/themes-refined/twenty-one-city-lights.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "thirty-tropical-social",
         "name": "30 · Tropical Social",
         "description": "A vibrant gathering with laid-back island style.",
         "setting": "Age 30 · East Coast café · Coral & fern",
-        "image": "assets/themes/thirty-tropical-social.jpg"
+        "image": "assets/themes-refined/thirty-tropical-social.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "forty-katong-colour",
         "name": "40 · Katong Colour",
         "description": "A heritage-inspired milestone full of personality.",
         "setting": "Age 40 · Katong shophouse · Teal & peach",
-        "image": "assets/themes/forty-katong-colour.jpg"
+        "image": "assets/themes-refined/forty-katong-colour.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "fifty-jewel-celebration",
         "name": "50 · Jewel Celebration",
-        "description": "Rich colour, jasmine and festive Indian-inspired detail.",
+        "description": "Rich jewel colours and jasmine-inspired printed detail.",
         "setting": "Age 50 · Hotel ballroom · Magenta & gold",
-        "image": "assets/themes/fifty-jewel-celebration.jpg"
+        "image": "assets/themes-refined/fifty-jewel-celebration.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "sixty-kampong-garden",
         "name": "60 · Kampong Garden",
         "description": "Warm Malay-inspired textile details in a garden setting.",
         "setting": "Age 60 · Garden event space · Sage & gold",
-        "image": "assets/themes/sixty-kampong-garden.jpg"
+        "image": "assets/themes-refined/sixty-kampong-garden.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "seventy-peach-blossoms",
         "name": "70 · Peach Blossoms",
         "description": "A Chinese-inspired longevity celebration for the family.",
         "setting": "Age 70 · Chinese restaurant · Red, peach & gold",
-        "image": "assets/themes/seventy-peach-blossoms.jpg"
+        "image": "assets/themes-refined/seventy-peach-blossoms.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "eighty-family-heritage",
         "name": "80 · Family Heritage",
         "description": "A warm, inclusive celebration of a life well lived.",
         "setting": "Age 80 · Heritage hotel · Ivory, jade & gold",
-        "image": "assets/themes/eighty-family-heritage.jpg"
+        "image": "assets/themes-refined/eighty-family-heritage.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       }
     ]
   },
@@ -198,91 +270,127 @@
         "name": "Tea & Two",
         "description": "A contemporary Chinese-inspired engagement setting.",
         "setting": "Private dining room · Crimson, blush & gold",
-        "image": "assets/themes/tea-and-two.jpg"
+        "image": "assets/themes-refined/tea-and-two.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "jasmine-jewels",
         "name": "Jasmine & Jewels",
-        "description": "An Indian-inspired celebration in a rich floral palette.",
+        "description": "Indian-inspired patterns and floral print in a rich palette.",
         "setting": "Little India event studio · Emerald, ivory & gold",
-        "image": "assets/themes/jasmine-jewels.jpg"
+        "image": "assets/themes-refined/jasmine-jewels.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "tunang-garden",
         "name": "Tunang Garden",
-        "description": "A Malay-inspired engagement with elegant gift displays.",
+        "description": "Malay-inspired arch silhouettes and coordinated printed signage.",
         "setting": "Garden function venue · Sage, cream & gold",
-        "image": "assets/themes/tunang-garden.jpg"
+        "image": "assets/themes-refined/tunang-garden.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "katong-promise",
         "name": "Katong Promise",
         "description": "A colourful nod to Peranakan craftsmanship.",
         "setting": "Heritage courtyard · Aqua, coral & ivory",
-        "image": "assets/themes/katong-promise.jpg"
+        "image": "assets/themes-refined/katong-promise.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "botanical-yes",
         "name": "Botanical Yes",
         "description": "A light, nature-led setting for a personal promise.",
         "setting": "Botanical garden pavilion · White & fern",
-        "image": "assets/themes/botanical-yes.jpg"
+        "image": "assets/themes-refined/botanical-yes.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "harbour-afterglow",
         "name": "Harbour Afterglow",
         "description": "Warm sunset tones for a contemporary engagement.",
         "setting": "Harbour rooftop · Peach, amber & rose",
-        "image": "assets/themes/harbour-afterglow.jpg"
+        "image": "assets/themes-refined/harbour-afterglow.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       }
     ]
   },
   {
     "key": "weddings",
     "name": "Weddings",
-    "intro": "Distinct wedding scenes shaped around your venue, your story and the traditions you choose to celebrate.",
+    "intro": "Custom wedding backdrop concepts shaped around your venue, story and the traditions you choose to celebrate.",
     "themes": [
       {
         "id": "double-happiness-modern",
         "name": "Double Happiness, Modern",
-        "description": "A contemporary Chinese-inspired banquet scene.",
+        "description": "A contemporary Chinese-inspired custom photo backdrop.",
         "setting": "Hotel ballroom · Crimson, blush & gold",
-        "image": "assets/themes/double-happiness-modern.jpg"
+        "image": "assets/themes-refined/double-happiness-modern.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "jasmine-canopy",
         "name": "Jasmine Canopy",
-        "description": "An Indian-inspired wedding setting with floral depth.",
+        "description": "Canopy-inspired flat panels and jasmine print for a distinctive wedding backdrop.",
         "setting": "Outdoor hotel pavilion · Ivory, peach & gold",
-        "image": "assets/themes/jasmine-canopy.jpg"
+        "image": "assets/themes-refined/jasmine-canopy.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "pelamin-in-bloom",
         "name": "Pelamin in Bloom",
-        "description": "A Malay-inspired dais with soft, sculptural florals.",
+        "description": "Malay-inspired arch panels with sculptural silhouettes and printed floral detail.",
         "setting": "Kampong Glam event venue · Cream, sage & gold",
-        "image": "assets/themes/pelamin-in-bloom.jpg"
+        "image": "assets/themes-refined/pelamin-in-bloom.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "katong-heirloom",
         "name": "Katong Heirloom",
         "description": "Heritage patterns with a fresh, modern palette.",
         "setting": "Peranakan courtyard · Turquoise, coral & ivory",
-        "image": "assets/themes/katong-heirloom.jpg"
+        "image": "assets/themes-refined/katong-heirloom.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "tropical-villa-vows",
         "name": "Tropical Villa Vows",
-        "description": "A garden wedding with generous layers of greenery.",
+        "description": "Layered botanical print panels, open arch shapes and artificial plant accents.",
         "setting": "Black-and-white villa · White, blush & fern",
-        "image": "assets/themes/tropical-villa-vows.jpg"
+        "image": "assets/themes-refined/tropical-villa-vows.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "sentosa-seaside-vows",
         "name": "Sentosa Seaside Vows",
         "description": "Airy coastal forms and a warm sunset palette.",
         "setting": "Sentosa beach terrace · Sand, peach & seafoam",
-        "image": "assets/themes/sentosa-seaside-vows.jpg"
+        "image": "assets/themes-refined/sentosa-seaside-vows.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       }
     ]
   },
@@ -294,44 +402,62 @@
       {
         "id": "orchid-modern",
         "name": "Orchid Modern",
-        "description": "Fresh orchids and translucent details.",
+        "description": "Orchid-inspired tabletop details with translucent acrylic accents.",
         "setting": "City-view dining room · Orchid & lime",
-        "image": "assets/themes/orchid-modern.jpg"
+        "image": "assets/themes-refined/orchid-modern.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "nyonya-porcelain",
         "name": "Nyonya Porcelain",
-        "description": "Peranakan-inspired ceramics with playful colour.",
+        "description": "Peranakan porcelain-inspired print and acrylic details.",
         "setting": "Katong dining courtyard · Aqua & coral",
-        "image": "assets/themes/nyonya-porcelain.jpg"
+        "image": "assets/themes-refined/nyonya-porcelain.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "peach-and-prosperity",
         "name": "Peach & Prosperity",
         "description": "Chinese-inspired warmth for a family celebration.",
         "setting": "Restaurant private room · Red, peach & gold",
-        "image": "assets/themes/peach-and-prosperity.jpg"
+        "image": "assets/themes-refined/peach-and-prosperity.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "jasmine-and-brass",
         "name": "Jasmine & Brass",
-        "description": "Indian-inspired florals with a warm metallic glow.",
+        "description": "Indian-inspired floral illustration and warm metallic-look tabletop accents.",
         "setting": "Heritage banquet room · Ivory & saffron",
-        "image": "assets/themes/jasmine-and-brass.jpg"
+        "image": "assets/themes-refined/jasmine-and-brass.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "songket-softness",
         "name": "Songket Softness",
         "description": "Malay-inspired textile details in a gentle palette.",
         "setting": "Garden pavilion · Sage, cream & gold",
-        "image": "assets/themes/songket-softness.jpg"
+        "image": "assets/themes-refined/songket-softness.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "electric-play",
         "name": "Electric Play",
         "description": "Bold shapes and acrylic layers for a playful gathering.",
         "setting": "Creative studio · Blue, pink & orange",
-        "image": "assets/themes/electric-play.jpg"
+        "image": "assets/themes-refined/electric-play.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       }
     ]
   }

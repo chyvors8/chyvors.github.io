@@ -12,8 +12,8 @@ const content = {
           "Welcome & personalised signage",
           "Table decorations"
         ],
-        "image": "assets/mockups/baby-showers.jpg",
-        "alt": "Pastel baby shower arches, balloons, welcome signage and dessert table concept"
+        "image": "assets/personal-tiers/baby-showers-signature.jpg",
+        "alt": "Personalised printed baby-shower backdrop with matching signage and a cylinder pedestal concept"
       },
       {
         "name": "Anniversaries",
@@ -23,8 +23,8 @@ const content = {
           "Personalised signage",
           "Table decorations"
         ],
-        "image": "assets/mockups/anniversaries.jpg",
-        "alt": "Anniversary backdrop with a metallic 25, floral details and a styled table concept"
+        "image": "assets/personal-tiers/anniversaries-signature.jpg",
+        "alt": "Personalised anniversary backdrop with matching printed welcome signage and a cylinder pedestal concept"
       },
       {
         "name": "Birthdays",
@@ -34,8 +34,8 @@ const content = {
           "Name & welcome signage",
           "Table decorations"
         ],
-        "image": "assets/mockups/birthdays.jpg",
-        "alt": "Colourful birthday backdrop with balloon clusters, cake pedestal and table styling concept"
+        "image": "assets/personal-tiers/birthdays-signature.jpg",
+        "alt": "Shaped birthday backdrop with matching signage, printed cutout and a cylinder pedestal concept"
       },
       {
         "name": "Engagements",
@@ -45,8 +45,8 @@ const content = {
           "Personalised signage",
           "Table decorations"
         ],
-        "image": "assets/mockups/engagements.jpg",
-        "alt": "Romantic engagement backdrop with flowers and acrylic welcome signage concept"
+        "image": "assets/personal-tiers/engagements-signature.jpg",
+        "alt": "Printed engagement backdrop with shaped panels, matching welcome signage and a cylinder pedestal concept"
       },
       {
         "name": "Weddings",
@@ -56,8 +56,8 @@ const content = {
           "Welcome & event signage",
           "Table decorations"
         ],
-        "image": "assets/mockups/weddings.jpg",
-        "alt": "Contemporary wedding arches, soft florals, ivory fabric and welcome sign concept"
+        "image": "assets/personal-tiers/weddings-signature.jpg",
+        "alt": "Heritage-inspired printed wedding backdrop with matching signage and a cylinder pedestal concept"
       },
       {
         "name": "Table decorations",
@@ -67,8 +67,8 @@ const content = {
           "Decorative table details",
           "Matching backdrop & table signage"
         ],
-        "image": "assets/mockups/table-decorations.jpg",
-        "alt": "Pink event table styling with flowers, lime napkins and blue acrylic table number concept"
+        "image": "assets/personal-tiers/table-decorations-signature.jpg",
+        "alt": "Coordinated table-number, menu and place-card decoration concept on a venue-supplied table"
       }
     ],
     "cta": "Enquire about your backdrop",
@@ -195,10 +195,10 @@ function setOccasion(key, focus = false) {
     const list = document.createElement('ul');
     list.append(...category.items.map(item => {const li = document.createElement('li'); li.textContent = item; return li;}));
     const preview = document.createElement('figure'); preview.className = 'occasion-category-preview';
-    const caption = document.createElement('figcaption'); caption.textContent = category.name === 'Exhibition setup & dismantling' ? 'Real exhibition projects' : key === 'corporate' ? 'Concepts & real projects' : 'Concept preview';
+    const caption = document.createElement('figcaption'); caption.textContent = category.name === 'Exhibition setup & dismantling' ? 'Real exhibition projects' : key === 'corporate' ? 'Concepts & real projects' : 'Personal event tier concepts';
     const collection = window.backdroppedThemes?.find(c => c.name === category.name);
     if (collection && window.backdroppedThemeUI) {
-      const reel = window.backdroppedThemeUI.createReel(collection.themes);
+      const reel = window.backdroppedThemeUI.createReel(key === 'personal' && collection.tierExamples ? collection.tierExamples : collection.themes);
       preview.append(reel, caption, window.backdroppedThemeUI.createMotionButton(reel));
     } else {
       const image = document.createElement('img');
@@ -210,7 +210,7 @@ function setOccasion(key, focus = false) {
     if (collection) {
       const explore = document.createElement('a'); explore.className = 'theme-explore-link';
       explore.href = 'themes.html?category=' + collection.key;
-      explore.textContent = 'Explore ' + collection.themes.length + (category.name === 'Exhibition setup & dismantling' ? ' project photos ↗' : key === 'corporate' ? ' ideas & projects ↗' : ' themes ↗'); body.append(explore);
+      explore.textContent = 'Explore ' + collection.themes.length + (category.name === 'Exhibition setup & dismantling' ? ' project photos ↗' : key === 'corporate' ? ' ideas & projects ↗' : collection.tierExamples ? ' tier & bespoke concepts ↗' : ' themes ↗'); body.append(explore);
       if (key === 'corporate' && collection.key === 'signboards') {
         const guide = document.createElement('a'); guide.className = 'theme-explore-link';
         guide.href = 'themes.html?occasion=corporate&category=signboards#signboard-guide';

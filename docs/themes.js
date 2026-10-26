@@ -9,56 +9,80 @@ window.backdroppedThemes = [
         "name": "Pink Dreamhouse",
         "description": "A fashion-doll-inspired welcome in a bright condo clubhouse.",
         "setting": "Condo clubhouse · Pink, lilac & chrome",
-        "image": "assets/themes/pink-dreamhouse.jpg"
+        "image": "assets/themes-refined/pink-dreamhouse.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "little-dino-garden",
         "name": "Little Dino Garden",
         "description": "Friendly dinosaurs meet soft tropical greens.",
         "setting": "Garden pavilion · Sage, peach & sunshine",
-        "image": "assets/themes/little-dino-garden.jpg"
+        "image": "assets/themes-refined/little-dino-garden.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "tiny-train-adventure",
         "name": "Tiny Train Adventure",
         "description": "A cheerful little journey with a local transport wink.",
         "setting": "Community event hall · Blue, orange & cream",
-        "image": "assets/themes/tiny-train-adventure.jpg"
+        "image": "assets/themes-refined/tiny-train-adventure.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "pony-cloud-parade",
         "name": "Pony Cloud Parade",
         "description": "Pastel ponies, clouds and a touch of magic.",
         "setting": "Poolside function room · Lilac, mint & blush",
-        "image": "assets/themes/pony-cloud-parade.jpg"
+        "image": "assets/themes-refined/pony-cloud-parade.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "little-cartoon-town",
         "name": "Little Cartoon Town",
         "description": "An original storybook neighbourhood for a little arrival.",
         "setting": "Shophouse studio · Coral, yellow & aqua",
-        "image": "assets/themes/little-cartoon-town.jpg"
+        "image": "assets/themes-refined/little-cartoon-town.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "up-up-baby",
         "name": "Up, Up & Baby",
-        "description": "Hot-air balloons and soft skies by the coast.",
+        "description": "Hot-air-balloon illustrations and soft printed skies by the coast.",
         "setting": "East Coast pavilion · Sky blue, peach & ivory",
-        "image": "assets/themes/up-up-baby.jpg"
+        "image": "assets/themes-refined/up-up-baby.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "mini-monster-party",
         "name": "Mini Monster Party",
         "description": "Big smiles from tiny, friendly monsters.",
         "setting": "HDB function space · Lime, pink & cobalt",
-        "image": "assets/themes/mini-monster-party.jpg"
+        "image": "assets/themes-refined/mini-monster-party.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "starlight-anime-baby",
         "name": "Starlight Anime Baby",
         "description": "A dreamy anime-inspired sky with original characters.",
         "setting": "Creative loft · Blue, lilac & silver",
-        "image": "assets/themes/starlight-anime-baby.jpg"
+        "image": "assets/themes-refined/starlight-anime-baby.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       }
     ]
   },
@@ -72,42 +96,60 @@ window.backdroppedThemes = [
         "name": "Memory Lane",
         "description": "A photo-gallery-inspired celebration of shared chapters.",
         "setting": "Heritage shophouse · Warm ivory & terracotta",
-        "image": "assets/themes/memory-lane.jpg"
+        "image": "assets/themes-refined/memory-lane.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "rooftop-romance",
         "name": "Rooftop Romance",
-        "description": "A candlelit evening above the city.",
+        "description": "Layered silhouettes and warm printed colours for a romantic city backdrop.",
         "setting": "City rooftop · Blush, burgundy & gold",
-        "image": "assets/themes/rooftop-romance.jpg"
+        "image": "assets/themes-refined/rooftop-romance.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "orchid-garden",
         "name": "Orchid Garden",
-        "description": "A lush floral celebration inspired by the tropics.",
+        "description": "Orchid-inspired print, botanical contours and artificial plant accents.",
         "setting": "Glasshouse conservatory · Orchid, white & fern",
-        "image": "assets/themes/orchid-garden.jpg"
+        "image": "assets/themes-refined/orchid-garden.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "enchanted-wonderland",
         "name": "Enchanted Wonderland",
-        "description": "An immersive garden with playful scale.",
+        "description": "Oversized illustrated garden shapes with playful scale.",
         "setting": "Indoor garden venue · Moss, lavender & peach",
-        "image": "assets/themes/enchanted-wonderland.jpg"
+        "image": "assets/themes-refined/enchanted-wonderland.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "peranakan-love-story",
         "name": "Peranakan Love Story",
         "description": "Heritage colour and delicate floral details.",
         "setting": "Katong courtyard · Turquoise, coral & gold",
-        "image": "assets/themes/peranakan-love-story.jpg"
+        "image": "assets/themes-refined/peranakan-love-story.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "coastal-chapters",
         "name": "Coastal Chapters",
         "description": "A relaxed anniversary with sea-breeze colours.",
         "setting": "Sentosa terrace · Sand, seafoam & ivory",
-        "image": "assets/themes/coastal-chapters.jpg"
+        "image": "assets/themes-refined/coastal-chapters.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       }
     ]
   },
@@ -121,70 +163,100 @@ window.backdroppedThemes = [
         "name": "7 · Dino Explorers",
         "description": "A playful adventure for energetic little explorers.",
         "setting": "Age 7 · Condo garden · Lime & orange",
-        "image": "assets/themes/seven-dino-explorers.jpg"
+        "image": "assets/themes-refined/seven-dino-explorers.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "ten-space-cadets",
         "name": "10 · Space Cadets",
         "description": "A launchpad for big imaginations.",
         "setting": "Age 10 · Community club · Cobalt & silver",
-        "image": "assets/themes/ten-space-cadets.jpg"
+        "image": "assets/themes-refined/ten-space-cadets.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "sixteen-anime-city",
         "name": "16 · Anime City",
         "description": "An original anime-inspired world with urban energy.",
         "setting": "Age 16 · Creative loft · Pink & neon blue",
-        "image": "assets/themes/sixteen-anime-city.jpg"
+        "image": "assets/themes-refined/sixteen-anime-city.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "twenty-one-city-lights",
         "name": "21 · City Lights",
         "description": "A polished coming-of-age celebration.",
         "setting": "Age 21 · Marina-view lounge · Blue & chrome",
-        "image": "assets/themes/twenty-one-city-lights.jpg"
+        "image": "assets/themes-refined/twenty-one-city-lights.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "thirty-tropical-social",
         "name": "30 · Tropical Social",
         "description": "A vibrant gathering with laid-back island style.",
         "setting": "Age 30 · East Coast café · Coral & fern",
-        "image": "assets/themes/thirty-tropical-social.jpg"
+        "image": "assets/themes-refined/thirty-tropical-social.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "forty-katong-colour",
         "name": "40 · Katong Colour",
         "description": "A heritage-inspired milestone full of personality.",
         "setting": "Age 40 · Katong shophouse · Teal & peach",
-        "image": "assets/themes/forty-katong-colour.jpg"
+        "image": "assets/themes-refined/forty-katong-colour.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "fifty-jewel-celebration",
         "name": "50 · Jewel Celebration",
-        "description": "Rich colour, jasmine and festive Indian-inspired detail.",
+        "description": "Rich jewel colours and jasmine-inspired printed detail.",
         "setting": "Age 50 · Hotel ballroom · Magenta & gold",
-        "image": "assets/themes/fifty-jewel-celebration.jpg"
+        "image": "assets/themes-refined/fifty-jewel-celebration.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "sixty-kampong-garden",
         "name": "60 · Kampong Garden",
         "description": "Warm Malay-inspired textile details in a garden setting.",
         "setting": "Age 60 · Garden event space · Sage & gold",
-        "image": "assets/themes/sixty-kampong-garden.jpg"
+        "image": "assets/themes-refined/sixty-kampong-garden.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "seventy-peach-blossoms",
         "name": "70 · Peach Blossoms",
         "description": "A Chinese-inspired longevity celebration for the family.",
         "setting": "Age 70 · Chinese restaurant · Red, peach & gold",
-        "image": "assets/themes/seventy-peach-blossoms.jpg"
+        "image": "assets/themes-refined/seventy-peach-blossoms.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "eighty-family-heritage",
         "name": "80 · Family Heritage",
         "description": "A warm, inclusive celebration of a life well lived.",
         "setting": "Age 80 · Heritage hotel · Ivory, jade & gold",
-        "image": "assets/themes/eighty-family-heritage.jpg"
+        "image": "assets/themes-refined/eighty-family-heritage.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       }
     ]
   },
@@ -198,91 +270,127 @@ window.backdroppedThemes = [
         "name": "Tea & Two",
         "description": "A contemporary Chinese-inspired engagement setting.",
         "setting": "Private dining room · Crimson, blush & gold",
-        "image": "assets/themes/tea-and-two.jpg"
+        "image": "assets/themes-refined/tea-and-two.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "jasmine-jewels",
         "name": "Jasmine & Jewels",
-        "description": "An Indian-inspired celebration in a rich floral palette.",
+        "description": "Indian-inspired patterns and floral print in a rich palette.",
         "setting": "Little India event studio · Emerald, ivory & gold",
-        "image": "assets/themes/jasmine-jewels.jpg"
+        "image": "assets/themes-refined/jasmine-jewels.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "tunang-garden",
         "name": "Tunang Garden",
-        "description": "A Malay-inspired engagement with elegant gift displays.",
+        "description": "Malay-inspired arch silhouettes and coordinated printed signage.",
         "setting": "Garden function venue · Sage, cream & gold",
-        "image": "assets/themes/tunang-garden.jpg"
+        "image": "assets/themes-refined/tunang-garden.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "katong-promise",
         "name": "Katong Promise",
         "description": "A colourful nod to Peranakan craftsmanship.",
         "setting": "Heritage courtyard · Aqua, coral & ivory",
-        "image": "assets/themes/katong-promise.jpg"
+        "image": "assets/themes-refined/katong-promise.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "botanical-yes",
         "name": "Botanical Yes",
         "description": "A light, nature-led setting for a personal promise.",
         "setting": "Botanical garden pavilion · White & fern",
-        "image": "assets/themes/botanical-yes.jpg"
+        "image": "assets/themes-refined/botanical-yes.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "harbour-afterglow",
         "name": "Harbour Afterglow",
         "description": "Warm sunset tones for a contemporary engagement.",
         "setting": "Harbour rooftop · Peach, amber & rose",
-        "image": "assets/themes/harbour-afterglow.jpg"
+        "image": "assets/themes-refined/harbour-afterglow.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       }
     ]
   },
   {
     "key": "weddings",
     "name": "Weddings",
-    "intro": "Distinct wedding scenes shaped around your venue, your story and the traditions you choose to celebrate.",
+    "intro": "Custom wedding backdrop concepts shaped around your venue, story and the traditions you choose to celebrate.",
     "themes": [
       {
         "id": "double-happiness-modern",
         "name": "Double Happiness, Modern",
-        "description": "A contemporary Chinese-inspired banquet scene.",
+        "description": "A contemporary Chinese-inspired custom photo backdrop.",
         "setting": "Hotel ballroom · Crimson, blush & gold",
-        "image": "assets/themes/double-happiness-modern.jpg"
+        "image": "assets/themes-refined/double-happiness-modern.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "jasmine-canopy",
         "name": "Jasmine Canopy",
-        "description": "An Indian-inspired wedding setting with floral depth.",
+        "description": "Canopy-inspired flat panels and jasmine print for a distinctive wedding backdrop.",
         "setting": "Outdoor hotel pavilion · Ivory, peach & gold",
-        "image": "assets/themes/jasmine-canopy.jpg"
+        "image": "assets/themes-refined/jasmine-canopy.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "pelamin-in-bloom",
         "name": "Pelamin in Bloom",
-        "description": "A Malay-inspired dais with soft, sculptural florals.",
+        "description": "Malay-inspired arch panels with sculptural silhouettes and printed floral detail.",
         "setting": "Kampong Glam event venue · Cream, sage & gold",
-        "image": "assets/themes/pelamin-in-bloom.jpg"
+        "image": "assets/themes-refined/pelamin-in-bloom.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "katong-heirloom",
         "name": "Katong Heirloom",
         "description": "Heritage patterns with a fresh, modern palette.",
         "setting": "Peranakan courtyard · Turquoise, coral & ivory",
-        "image": "assets/themes/katong-heirloom.jpg"
+        "image": "assets/themes-refined/katong-heirloom.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "tropical-villa-vows",
         "name": "Tropical Villa Vows",
-        "description": "A garden wedding with generous layers of greenery.",
+        "description": "Layered botanical print panels, open arch shapes and artificial plant accents.",
         "setting": "Black-and-white villa · White, blush & fern",
-        "image": "assets/themes/tropical-villa-vows.jpg"
+        "image": "assets/themes-refined/tropical-villa-vows.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "sentosa-seaside-vows",
         "name": "Sentosa Seaside Vows",
         "description": "Airy coastal forms and a warm sunset palette.",
         "setting": "Sentosa beach terrace · Sand, peach & seafoam",
-        "image": "assets/themes/sentosa-seaside-vows.jpg"
+        "image": "assets/themes-refined/sentosa-seaside-vows.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       }
     ]
   },
@@ -294,48 +402,73 @@ window.backdroppedThemes = [
       {
         "id": "orchid-modern",
         "name": "Orchid Modern",
-        "description": "Fresh orchids and translucent details.",
+        "description": "Orchid-inspired tabletop details with translucent acrylic accents.",
         "setting": "City-view dining room · Orchid & lime",
-        "image": "assets/themes/orchid-modern.jpg"
+        "image": "assets/themes-refined/orchid-modern.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "nyonya-porcelain",
         "name": "Nyonya Porcelain",
-        "description": "Peranakan-inspired ceramics with playful colour.",
+        "description": "Peranakan porcelain-inspired print and acrylic details.",
         "setting": "Katong dining courtyard · Aqua & coral",
-        "image": "assets/themes/nyonya-porcelain.jpg"
+        "image": "assets/themes-refined/nyonya-porcelain.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "peach-and-prosperity",
         "name": "Peach & Prosperity",
         "description": "Chinese-inspired warmth for a family celebration.",
         "setting": "Restaurant private room · Red, peach & gold",
-        "image": "assets/themes/peach-and-prosperity.jpg"
+        "image": "assets/themes-refined/peach-and-prosperity.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "jasmine-and-brass",
         "name": "Jasmine & Brass",
-        "description": "Indian-inspired florals with a warm metallic glow.",
+        "description": "Indian-inspired floral illustration and warm metallic-look tabletop accents.",
         "setting": "Heritage banquet room · Ivory & saffron",
-        "image": "assets/themes/jasmine-and-brass.jpg"
+        "image": "assets/themes-refined/jasmine-and-brass.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "songket-softness",
         "name": "Songket Softness",
         "description": "Malay-inspired textile details in a gentle palette.",
         "setting": "Garden pavilion · Sage, cream & gold",
-        "image": "assets/themes/songket-softness.jpg"
+        "image": "assets/themes-refined/songket-softness.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       },
       {
         "id": "electric-play",
         "name": "Electric Play",
         "description": "Bold shapes and acrylic layers for a playful gathering.",
         "setting": "Creative studio · Blue, pink & orange",
-        "image": "assets/themes/electric-play.jpg"
+        "image": "assets/themes-refined/electric-play.jpg",
+        "tier": "bespoke",
+        "tierName": "Bespoke",
+        "tierNumber": 4
       }
     ]
   }
 ];
+// Tier examples lead the comparison; existing personal concepts remain Bespoke inspiration.
+for (const collection of window.backdroppedThemes) {
+  const examples = window.backdroppedPersonalTiers?.find(c => c.key === collection.key);
+  if (!examples) continue;
+  collection.tierExamples = examples.themes;
+  collection.themes = [...examples.themes, ...collection.themes.map(theme => ({ ...theme, tier: 'bespoke', tierName: 'Bespoke', tierNumber: 4, image: window.backdroppedRefinedPersonalImages?.[theme.id] || theme.image }))];
+}
 window.backdroppedThemes.push(...(window.backdroppedCorporateThemes || []));
 (function () {
   const collections = window.backdroppedThemes;
@@ -387,11 +520,11 @@ window.backdroppedThemes.push(...(window.backdroppedCorporateThemes || []));
         const img = document.createElement('img');
         if (nearby) { img.dataset.previewSource = item.image; nearby.observe(img); }
         else window.setBackdroppedImage(img, item.image, '(max-width: 760px) 88vw, 30vw');
-        img.alt = copy ? '' : item.name + ' — ' + item.setting + (item.kind === 'real' ? ' project photograph' : ' concept');
+        img.alt = copy ? '' : (item.tierName ? item.tierName + ' tier: ' : '') + item.name + ' — ' + item.setting + (item.kind === 'real' ? ' project photograph' : ' concept');
         img.width = 1000; img.height = 750; img.loading = 'lazy'; img.decoding = 'async'; img.draggable = false;
         if (details && item.view !== 'full') tile.setAttribute('aria-hidden', 'true');
         tile.append(img);
-        if (!details) { const title = document.createElement('span'); title.className = 'theme-reel-name'; title.textContent = item.name; tile.append(title); }
+        if (!details) { const title = document.createElement('span'); title.className = 'theme-reel-name'; title.textContent = (item.tierName ? 'Tier ' + item.tierNumber + ' · ' + item.tierName + ' — ' : '') + item.name; tile.append(title); }
         group.append(tile);
       }
       track.append(group);
@@ -559,7 +692,7 @@ window.backdroppedThemes.push(...(window.backdroppedCorporateThemes || []));
   const themeField = document.querySelector('[name="details"]');
   const requestedTheme = new URLSearchParams(location.search).get('theme');
   const chosenTheme = collections.flatMap(c => c.themes).find(t => t.id === requestedTheme);
-  if (chosenTheme && themeField && !themeField.value) themeField.value = 'Theme inspiration: ' + chosenTheme.name + '\n';
+  if (chosenTheme && themeField && !themeField.value) themeField.value = 'Theme inspiration: ' + chosenTheme.name + (chosenTheme.tierName ? '\nPreferred tier: ' + chosenTheme.tierName : '') + '\n';
   const gallery = document.querySelector('#theme-gallery');
   if (!gallery) return;
   const filters = document.querySelector('#theme-filters');
@@ -570,6 +703,22 @@ window.backdroppedThemes.push(...(window.backdroppedCorporateThemes || []));
   document.querySelector('#theme-occasion-personal').setAttribute('aria-current', occasion === 'personal' ? 'page' : 'false');
   document.querySelector('#theme-occasion-corporate').setAttribute('aria-current', occasion === 'corporate' ? 'page' : 'false');
   document.querySelector('#theme-disclaimer').textContent = occasion === 'corporate' ? 'Explore generated concepts alongside real project photographs. Each preview is labelled, and real examples link to the portfolio.' : 'Illustrative design concepts. Every setup can be personalised to your venue, colours and traditions.';
+  let selectedTier = ['essential', 'signature', 'premium', 'bespoke'].includes(query.get('tier')) ? query.get('tier') : 'compare';
+  let activeCollectionKey;
+  let tierButtons;
+  if (occasion === 'personal' && window.backdroppedPersonalTiers) {
+    const guide = document.createElement('section'); guide.className = 'personal-tier-guide';
+    guide.setAttribute('aria-label', 'Compare personal event tiers');
+    guide.innerHTML = '<p class="eyebrow">FOUR WAYS TO MAKE IT YOURS</p><h2>Simple beginnings. Creative possibilities.</h2><div class="personal-tier-overview"><div><span>Tier 1</span><h3>Essential</h3><p>A simple printed backdrop with optional balloon accents, or a small coordinated table-detail set.</p></div><div><span>Tier 2</span><h3>Signature</h3><p>Personalised artwork, shaped panels, matching print and balloon accents.</p></div><div><span>Tier 3</span><h3>Premium</h3><p>Different heights and creative contours, with artificial plants or soft toys where they suit the theme.</p></div><div><span>Tier 4</span><h3>Bespoke</h3><p>Distinctive custom silhouettes, larger compositions and coordinated balloons, artificial plants or soft toys.</p></div></div><p class="personal-tier-options"><strong>Balloons:</strong> available across all tiers. <strong>Artificial plants &amp; soft toys:</strong> Premium and Bespoke, where they suit your theme.</p><p class="personal-tier-scope">We focus on backdrops, signage, stickers, balloons, cylinder pedestal stands and optional table decorations. Images are illustrative concepts, not fixed package inclusions. Other furniture, venue styling, catering and table hire are not supplied. A plain venue-supplied table may be shown for table-decoration examples. Final items, dimensions and installation scope are confirmed in your quotation.</p>';
+    tierButtons = document.createElement('div'); tierButtons.className = 'theme-filters personal-tier-filters'; tierButtons.setAttribute('aria-label', 'Filter by tier');
+    for (const [key, label] of [['compare','Compare four tiers'],['essential','Tier 1 · Essential'],['signature','Tier 2 · Signature'],['premium','Tier 3 · Premium'],['bespoke','Tier 4 · Bespoke ideas']]) {
+      const button = document.createElement('button'); button.type = 'button'; button.textContent = label; button.dataset.tier = key;
+      button.addEventListener('click', () => { selectedTier = key; showCollection(activeCollectionKey); }); tierButtons.append(button);
+    }
+    guide.append(tierButtons); filters.after(guide);
+    const galleryHint = document.querySelector('.theme-gallery-note span:last-child');
+    if (galleryHint) galleryHint.textContent = 'Compare the tiers, then open any concept for a closer look.';
+  }
   const dialog = document.querySelector('#theme-dialog');
   let lastOpener;
   function openTheme(theme, button) {
@@ -582,7 +731,7 @@ window.backdroppedThemes.push(...(window.backdroppedCorporateThemes || []));
     document.querySelector('#theme-dialog-enquire').href = 'lets-talk.html?occasion=' + (theme.occasion || 'personal') + '&theme=' + encodeURIComponent(theme.id);
     document.querySelector('#theme-dialog-enquire').textContent = theme.kind === 'real' ? 'Enquire about similar work' : 'Enquire about this theme';
     const portfolioLink = document.querySelector('#theme-dialog-portfolio'); portfolioLink.hidden = !theme.project; if (theme.project) portfolioLink.href = 'portfolio.html?project=' + theme.project;
-    document.querySelector('#theme-dialog-kind').textContent = theme.kind === 'real' ? 'Project photograph' : 'Concept preview';
+    document.querySelector('#theme-dialog-kind').textContent = theme.kind === 'real' ? 'Project photograph' : theme.tierName ? 'Tier ' + theme.tierNumber + ' · ' + theme.tierName + ' concept' : 'Concept preview';
     dialog.showModal();
   }
   document.querySelector('#theme-dialog-close').addEventListener('click', () => dialog.close());
@@ -590,6 +739,10 @@ window.backdroppedThemes.push(...(window.backdroppedCorporateThemes || []));
   dialog.addEventListener('close', () => lastOpener?.focus());
   function showCollection(key) {
     const collection = available.find(c => c.key === key) || available[0];
+    activeCollectionKey = collection.key;
+    const tiered = occasion === 'personal' && !!collection.tierExamples;
+    const visibleThemes = tiered ? (selectedTier === 'compare' ? collection.tierExamples : collection.themes.filter(t => t.tier === selectedTier)) : collection.themes;
+    tierButtons?.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.tier === selectedTier)));
     filters.querySelectorAll('button').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.category === collection.key)));
     document.querySelector('#themes-heading').textContent = collection.name;
     document.querySelector('#themes-intro').textContent = collection.intro;
@@ -599,16 +752,18 @@ window.backdroppedThemes.push(...(window.backdroppedCorporateThemes || []));
       guide.open = !guide.hidden && location.hash === '#signboard-guide';
     }
     const realOnly = collection.themes.every(theme => theme.kind === 'real');
-    document.querySelector('#themes-count').textContent = collection.themes.length + (realOnly ? ' project photographs' : occasion === 'corporate' ? ' ideas & real projects' : ' curated concepts');
-    document.querySelector('#theme-disclaimer').textContent = realOnly ? 'Real exhibition project photographs. Open a preview to explore its full portfolio collection.' : occasion === 'corporate' ? 'Explore generated concepts alongside real project photographs. Each preview is labelled, and real examples link to the portfolio.' : 'Illustrative design concepts. Every setup can be personalised to your venue, colours and traditions.';
-    gallery.replaceChildren(...collection.themes.map(theme => {
+    document.querySelector('#themes-count').textContent = visibleThemes.length + (realOnly ? ' project photographs' : occasion === 'corporate' ? ' ideas & real projects' : ' curated concepts');
+    document.querySelector('#theme-disclaimer').textContent = realOnly ? 'Real exhibition project photographs. Open a preview to explore its full portfolio collection.' : occasion === 'corporate' ? 'Explore generated concepts alongside real project photographs. Each preview is labelled, and real examples link to the portfolio.' : 'Generated concepts for our backdrop, signage, sticker, balloon and table-decoration services. Exact scope is agreed in your quotation; surrounding venue furniture is not supplied.';
+    if (tiered) document.querySelector('#themes-count').textContent = visibleThemes.length + (selectedTier === 'compare' ? ' tier examples' : ' ' + selectedTier + ' concepts');
+    gallery.classList.toggle('is-tier-comparison', tiered && selectedTier === 'compare');
+    gallery.replaceChildren(...visibleThemes.map(theme => {
       const card = document.createElement('article'); card.className = 'theme-card';
       const preview = document.createElement('div'); preview.className = 'theme-card-preview';
       const open = document.createElement('button'); open.type = 'button'; open.className = 'theme-open';
-      open.setAttribute('aria-label', 'View ' + theme.name + (theme.kind === 'real' ? ' project photograph' : ' concept'));
+      open.setAttribute('aria-label', 'View ' + (theme.tierName ? theme.tierName + ' ' : '') + theme.name + (theme.kind === 'real' ? ' project photograph' : ' concept'));
       const reel = createReel([theme], true); open.append(reel);
       open.addEventListener('click', () => openTheme(theme, open));
-      const label = document.createElement('span'); label.className = 'theme-concept-label'; label.textContent = theme.kind === 'real' ? 'Real project' : 'Concept preview';
+      const label = document.createElement('span'); label.className = 'theme-concept-label'; label.textContent = theme.kind === 'real' ? 'Real project' : theme.tierName ? 'Tier ' + theme.tierNumber + ' · ' + theme.tierName : 'Concept preview';
       preview.append(open, label, createMotionButton(reel));
       const body = document.createElement('div'); body.className = 'theme-card-body';
       const setting = document.createElement('p'); setting.className = 'theme-setting'; setting.textContent = theme.setting;
@@ -616,6 +771,7 @@ window.backdroppedThemes.push(...(window.backdroppedCorporateThemes || []));
       const description = document.createElement('p'); description.textContent = theme.description;
       const view = document.createElement('button'); view.type = 'button'; view.className = 'card-link'; view.textContent = theme.kind === 'real' ? 'View project photo ↗' : 'View concept ↗';
       view.addEventListener('click', () => openTheme(theme, view));
+      if (theme.tierName) { const tierLabel = document.createElement('p'); tierLabel.className = 'theme-tier-label'; tierLabel.textContent = 'Tier ' + theme.tierNumber + ' · ' + theme.tierName; body.append(tierLabel); }
       body.append(setting, title, description, view); card.append(preview, body);
       card.addEventListener('pointermove', event => {
         if (event.pointerType !== 'mouse' || reduced.matches) return;
@@ -626,14 +782,15 @@ window.backdroppedThemes.push(...(window.backdroppedCorporateThemes || []));
       card.addEventListener('pointerleave', () => { card.style.setProperty('--tilt-x', '0deg'); card.style.setProperty('--tilt-y', '0deg'); });
       return card;
     }));
-    const guideHash = collection.key === 'signboards' && location.hash === '#signboard-guide' ? '#signboard-guide' : '';
-    history.replaceState(null, '', 'themes.html?occasion=' + occasion + '&category=' + collection.key + guideHash);
+    const guideHash = collection.key === 'signboards' && location.hash === '#signboard-guide' ? '#signboard-guide' : location.hash === '#theme-gallery' ? '#theme-gallery' : '';
+    history.replaceState(null, '', 'themes.html?occasion=' + occasion + '&category=' + collection.key + (tiered && selectedTier !== 'compare' ? '&tier=' + selectedTier : '') + guideHash);
   }
   for (const collection of available) {
     const button = document.createElement('button'); button.type = 'button'; button.textContent = collection.name;
     button.dataset.category = collection.key; button.addEventListener('click', () => showCollection(collection.key)); filters.append(button);
   }
   showCollection(new URLSearchParams(location.search).get('category'));
+  if (location.hash === '#theme-gallery') requestAnimationFrame(() => gallery.scrollIntoView({block: 'start'}));
   if (location.hash === '#signboard-guide') {
     requestAnimationFrame(() => document.querySelector('#signboard-guide:not([hidden])')?.scrollIntoView({block: 'start'}));
   }
