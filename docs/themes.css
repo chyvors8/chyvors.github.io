@@ -61,7 +61,7 @@
 .theme-reel.is-fading .theme-reel-track{width:100%!important}
 .theme-reel.is-fading .theme-reel-group{position:absolute;inset:0;width:100%}
 .theme-reel.is-fading .theme-reel-group:not(:first-child){display:none}
-.theme-reel.is-fading .theme-reel-tile{position:absolute;inset:0;width:100%;opacity:0;transition:opacity .9s ease;pointer-events:none}
+.theme-reel.is-fading .theme-reel-tile{position:absolute;inset:0;width:100%;opacity:0;transition:opacity .45s ease;pointer-events:none}
 .theme-reel.is-fading .theme-reel-tile.is-current{opacity:1;z-index:1}
 .theme-preview-hint{position:absolute;bottom:14px;right:12px;padding:5px 9px;border:1px solid #fff9;border-radius:6px;background:#22271fcc;color:white;font-size:10px;font-weight:500;line-height:1.5}
 .theme-preview-controls .theme-motion-toggle{bottom:46px}

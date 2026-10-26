@@ -348,7 +348,7 @@ window.backdroppedThemes.push(...(window.backdroppedCorporateThemes || []));
       if (document.hidden || reduced.matches || !reel.classList.contains('is-fading') || !reel.classList.contains('is-hovered') || reel.classList.contains('is-paused') || reel.classList.contains('is-offscreen')) continue;
       if (now >= reel.nextFadeAt) {
         reel.showNextPreview();
-        reel.nextFadeAt = now + 6000;
+        reel.nextFadeAt = now + 2500;
       }
     }
     requestAnimationFrame(animatePreviews);
@@ -430,7 +430,7 @@ window.backdroppedThemes.push(...(window.backdroppedCorporateThemes || []));
     reel.addEventListener('pointerenter', event => {
       if (event.pointerType !== 'mouse' || !desktopPreview.matches) return;
       reel.classList.add('is-hovered');
-      reel.nextFadeAt = performance.now() + 1200;
+      reel.nextFadeAt = performance.now() + 250;
     });
     reel.addEventListener('pointerleave', () => {
       reel.classList.remove('is-hovered');
@@ -531,7 +531,7 @@ window.backdroppedThemes.push(...(window.backdroppedCorporateThemes || []));
     };
     button.addEventListener('click', () => {
       const paused = reel.classList.toggle('is-paused');
-      if (!paused) reel.nextFadeAt = performance.now() + 1200;
+      if (!paused) reel.nextFadeAt = performance.now() + 250;
       reel.updatePreviewControls();
     });
     reel.updatePreviewControls();
