@@ -58,6 +58,28 @@
   stage.querySelector('.comparison-slider').hidden = false;
   reveal(0);
   slider.addEventListener('input', () => { reveal(slider.value); clearTimeout(cleanup); confetti.replaceChildren(); });
+  let pointerStart;
+  let imageDragging = false;
+  comparison.addEventListener('pointerdown', event => {
+    if (event.button !== 0) return;
+    pointerStart = { id: event.pointerId, x: event.clientX, y: event.clientY };
+    imageDragging = false;
+    comparison.setPointerCapture(event.pointerId);
+  });
+  comparison.addEventListener('pointermove', event => {
+    if (!pointerStart || event.pointerId !== pointerStart.id) return;
+    const dx = event.clientX - pointerStart.x;
+    const dy = event.clientY - pointerStart.y;
+    if (!imageDragging && Math.abs(dx) > 6 && Math.abs(dx) > Math.abs(dy)) imageDragging = true;
+    if (!imageDragging) return;
+    const bounds = comparison.getBoundingClientRect();
+    reveal(Math.round(Math.max(0, Math.min(100, (event.clientX - bounds.left) / bounds.width * 100))));
+    clearTimeout(cleanup); confetti.replaceChildren();
+  });
+  const finishDrag = () => { pointerStart = undefined; imageDragging = false; };
+  comparison.addEventListener('pointerup', finishDrag);
+  comparison.addEventListener('pointercancel', finishDrag);
+  comparison.addEventListener('lostpointercapture', finishDrag);
   shine.addEventListener('click', () => {
     const active = Number(slider.value) < 50;
     reveal(active ? 100 : 0, true);
