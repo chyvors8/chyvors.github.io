@@ -288,13 +288,13 @@ function filmPoster(stem) {
   return 'assets/films/' + stem + (matchMedia('(max-width: 760px)').matches ? '-mobile.webp' : '-desktop.webp');
 }
 function mobileVideoFile(stem) {
-  const films = {'backdrop-process':'home-install-montage','personal-event-loop':'personal-concept-montage','corporate-event-loop':'corporate-portfolio-montage'};
+  const films = {'backdrop-process':'home-fill-montage','personal-event-loop':'personal-fill-montage','corporate-event-loop':'corporate-fill-montage'};
   return 'assets/films/' + films[stem] + (matchMedia('(max-width: 760px)').matches ? '-mobile.mp4' : '-desktop.mp4');
 }
 let userPaused = reducedMotion.matches || navigator.connection?.saveData === true;
 if(processVideo && videoToggle) {
 processVideo.muted = true;
-processVideo.poster = filmPoster('home-install-montage');
+processVideo.poster = filmPoster('home-fill-montage');
 processVideo.src = mobileVideoFile('backdrop-process');
 function updateVideoControl() {
   videoToggle.hidden = false;
@@ -357,7 +357,7 @@ function updateOccasionFilm(key) {
   if (filmCredit) filmCredit.textContent = kind === 'corporate' ? 'Portfolio photos · Art Illusion Pte Ltd production contributions' : 'Illustrative personal-event concepts';
   if (video.dataset.film === kind) return;
   video.dataset.film = kind;
-  video.poster = filmPoster(kind === 'corporate' ? 'corporate-portfolio-montage' : 'personal-concept-montage');
+  video.poster = filmPoster(kind === 'corporate' ? 'corporate-fill-montage' : 'personal-fill-montage');
   video.src = mobileVideoFile(kind + '-event-loop');
   video.muted = true;
   const shouldPlay = !matchMedia('(prefers-reduced-motion: reduce)').matches && navigator.connection?.saveData !== true && video.dataset.userPaused !== 'true';
