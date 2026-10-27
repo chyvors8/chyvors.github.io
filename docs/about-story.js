@@ -31,15 +31,36 @@
   showMoment(0); picker.hidden = false;
   const stage = page.querySelector('.memory-stage');
   const shine = stage.querySelector('.memory-button');
+  const slider = stage.querySelector('#memory-reveal');
+  const comparison = stage.querySelector('.memory-comparison');
+  const state = stage.querySelector('.comparison-state');
+  const response = stage.querySelector('.memory-response');
   const confetti = stage.querySelector('.memory-confetti');
   let cleanup;
+  let animationEnd;
+  function reveal(value, animated = false) {
+    clearTimeout(animationEnd);
+    const amount = Number(value);
+    comparison.classList.toggle('is-animating', animated && !reduced.matches);
+    comparison.style.setProperty('--reveal', amount + '%');
+    comparison.classList.toggle('is-partial', amount > 0 && amount < 100);
+    const transformed = amount >= 50;
+    stage.classList.toggle('is-shining', transformed);
+    shine.setAttribute('aria-pressed', String(transformed));
+    shine.innerHTML = transformed ? '<span aria-hidden="true">↺</span> Back to the plain backdrop' : '<span aria-hidden="true">✦</span> See the Backdropped transformation';
+    state.textContent = amount === 0 ? 'A plain starting point' : amount === 100 ? 'The Backdropped touch' : 'Plain → Backdropped';
+    response.textContent = amount === 0 ? 'One space. Imagine the possibilities.' : amount === 100 ? 'Custom shapes. Personal details. A burst of colour.' : 'Slide to see the creative difference.';
+    slider.value = String(amount);
+    slider.setAttribute('aria-valuetext', amount === 0 ? 'Plain starting concept' : amount === 100 ? 'Full Backdropped concept' : amount + '% Backdropped concept revealed');
+    animationEnd = setTimeout(() => comparison.classList.remove('is-animating'), 850);
+  }
   shine.hidden = false;
+  stage.querySelector('.comparison-slider').hidden = false;
+  reveal(0);
+  slider.addEventListener('input', () => { reveal(slider.value); clearTimeout(cleanup); confetti.replaceChildren(); });
   shine.addEventListener('click', () => {
-    const active = shine.getAttribute('aria-pressed') !== 'true';
-    shine.setAttribute('aria-pressed', String(active));
-    stage.classList.toggle('is-shining', active);
-    shine.innerHTML = active ? '<span aria-hidden="true">↺</span> Reset this moment' : '<span aria-hidden="true">✦</span> Make this moment shine';
-    stage.querySelector('.memory-response').textContent = active ? 'That’s the feeling we design for.' : 'Made for your moment.';
+    const active = Number(slider.value) < 50;
+    reveal(active ? 100 : 0, true);
     clearTimeout(cleanup); confetti.replaceChildren();
     if (active && !reduced.matches) {
       for (let i = 0; i < 18; i++) {
