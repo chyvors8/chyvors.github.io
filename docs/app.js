@@ -280,12 +280,17 @@ document.querySelector('#year').textContent = new Date().getFullYear();
 const processVideo = document.querySelector('#process-video');
 const videoToggle = document.querySelector('#video-toggle');
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+function filmPoster(stem) {
+  return 'assets/films/' + stem + (matchMedia('(max-width: 760px)').matches ? '-mobile.webp' : '-desktop.webp');
+}
 function mobileVideoFile(stem) {
-  return 'assets/' + stem + (matchMedia('(max-width: 760px)').matches ? '-mobile.mp4' : '-smooth.mp4');
+  const films = {'backdrop-process':'home-project-montage','personal-event-loop':'personal-concept-montage','corporate-event-loop':'corporate-portfolio-montage'};
+  return 'assets/films/' + films[stem] + (matchMedia('(max-width: 760px)').matches ? '-mobile.mp4' : '-desktop.mp4');
 }
 let userPaused = reducedMotion.matches || navigator.connection?.saveData === true;
 if(processVideo && videoToggle) {
 processVideo.muted = true;
+processVideo.poster = filmPoster('home-project-montage');
 processVideo.src = mobileVideoFile('backdrop-process');
 function updateVideoControl() {
   videoToggle.hidden = false;
@@ -300,7 +305,7 @@ processVideo.addEventListener('loadeddata', updateVideoControl);
 processVideo.addEventListener('play', updateVideoControl);
 processVideo.addEventListener('pause', updateVideoControl);
 videoToggle.addEventListener('click', () => {userPaused = !processVideo.paused; if(userPaused)processVideo.pause();else playProcessVideo();});
-processVideo.addEventListener('timeupdate', () => {const phase=Math.min(3,Math.floor(processVideo.currentTime / 5));document.querySelectorAll('[data-film-stage]').forEach(label=>label.classList.toggle('active', Number(label.dataset.filmStage) === phase));});
+processVideo.addEventListener('timeupdate', () => {const phaseLength=(Number.isFinite(processVideo.duration)&&processVideo.duration>0?processVideo.duration:32)/4;const phase=Math.min(3,Math.floor(processVideo.currentTime / phaseLength));document.querySelectorAll('[data-film-stage]').forEach(label=>label.classList.toggle('active', Number(label.dataset.filmStage) === phase));});
 processVideo.addEventListener('error',()=>{document.querySelector('.hero-film').classList.add('video-unavailable');videoToggle.hidden=true;});
 reducedMotion.addEventListener('change',event=>{userPaused=event.matches;if(userPaused)processVideo.pause();else playProcessVideo();});
 document.addEventListener('visibilitychange',()=>{if(document.hidden)processVideo.pause();else if(!userPaused)playProcessVideo();});
@@ -344,9 +349,11 @@ function updateOccasionFilm(key) {
   if (!video) return;
   const kind = key === 'corporate' ? 'corporate' : 'personal';
   document.querySelector('.occasion-masthead').dataset.film = kind;
+  const filmCredit = document.querySelector('#occasion-film-credit');
+  if (filmCredit) filmCredit.textContent = kind === 'corporate' ? 'Portfolio photos · Art Illusion Pte Ltd production contributions' : 'Illustrative personal-event concepts';
   if (video.dataset.film === kind) return;
   video.dataset.film = kind;
-  video.poster = window.backdroppedMedia['assets/' + kind + '-event-poster.jpg'].large;
+  video.poster = filmPoster(kind === 'corporate' ? 'corporate-portfolio-montage' : 'personal-concept-montage');
   video.src = mobileVideoFile(kind + '-event-loop');
   video.muted = true;
   const shouldPlay = !matchMedia('(prefers-reduced-motion: reduce)').matches && navigator.connection?.saveData !== true && video.dataset.userPaused !== 'true';
