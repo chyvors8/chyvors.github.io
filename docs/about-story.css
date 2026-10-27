@@ -22,3 +22,10 @@
 @media(prefers-reduced-motion:reduce){.memory-comparison.is-animating .memory-after{transition:none}}
 
 .memory-comparison{touch-action:pan-y;cursor:ew-resize;user-select:none;-webkit-user-select:none}.memory-comparison img{-webkit-user-drag:none}
+
+/* Photographs connect the story and purpose to the work. */
+.chapter-image,.purpose-image{position:relative;overflow:hidden;background:#e7e9df}.chapter-image{margin:-36px -36px 28px}.purpose-image{margin:-38px -38px 28px}.chapter-image img,.purpose-image img{display:block;width:100%;height:240px;object-fit:cover;transition:transform .7s cubic-bezier(.2,.8,.2,1)}
+.chapter-image figcaption,.purpose-image figcaption{position:absolute;bottom:12px;left:12px;right:12px;width:fit-content;max-width:calc(100% - 24px);padding:6px 10px;border-radius:5px;background:#fffffff0;color:#30352c;font-family:var(--body);font-size:9px;line-height:1.5}
+.story-chapter .chapter-mark{top:240px;font-size:110px;opacity:.7}.purpose-card>.eyebrow{margin-top:0}.purpose-card:has(details[open]) .purpose-image img{transform:scale(1.045)}.story-chapter.story-enter .chapter-image img{animation:chapter-photo-in .7s cubic-bezier(.2,.8,.2,1) both}@keyframes chapter-photo-in{from{transform:scale(1.04);opacity:.6}to{transform:scale(1);opacity:1}}
+@media(max-width:1000px){.purpose-image{margin:-28px -28px 26px}}
+@media(max-width:760px){.chapter-image{margin:-27px -23px 25px}.purpose-image{margin:-28px -24px 25px}.chapter-image img,.purpose-image img{height:220px}.story-chapter .chapter-mark{top:220px;font-size:95px}.chapter-image figcaption,.purpose-image figcaption{font-size:9px;bottom:10px;left:10px;max-width:calc(100% - 20px)}}
