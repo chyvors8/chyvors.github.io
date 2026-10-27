@@ -235,6 +235,10 @@ if(serviceSelect) {
   serviceSelect.value = content[activeOccasion].service;
   function updateServiceEnquiry() {
     const key = serviceSelect.value === content.corporate.service ? 'corporate' : 'personal';
+    const tierField = document.querySelector('#brief-tier-field');
+    const tierSelect = document.querySelector('#brief-tier');
+    if (tierField) tierField.hidden = key !== 'personal';
+    if (tierSelect) tierSelect.disabled = key !== 'personal';
     const container = document.querySelector('#brief-services');
     if (!container) return;
     container.replaceChildren(...content[key].categories.map(category => {
@@ -274,7 +278,7 @@ if(serviceSelect) {
   serviceSelect.addEventListener('change', updateServiceEnquiry);
   updateServiceEnquiry();
 }
-document.querySelector('#brief-form')?.addEventListener('submit',event=>{event.preventDefault();const data=new FormData(event.target);const text=['BACKDROPPED — PROJECT BRIEF','','Name: '+data.get('name'),'Email: '+data.get('email'),'Service: '+data.get('service'),'Selected services: '+(data.getAll('services').join('; ')||'To be discussed'),...(data.get('otherServices')?['Other service details: '+data.get('otherServices')]:[]),'Required date: '+(data.get('date')||'To be confirmed'),'','Project details:',data.get('details'),'','Prepared for discussion with backdropped.'].join('\n');const url=URL.createObjectURL(new Blob([text],{type:'text/plain;charset=utf-8'}));const link=document.createElement('a');link.href=url;link.download='backdropped-project-brief.txt';document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);document.querySelector('#brief-status').textContent='Your brief is ready to save. Keep it handy to share with backdropped.';});
+document.querySelector('#brief-form')?.addEventListener('submit',event=>{event.preventDefault();const data=new FormData(event.target);const text=['BACKDROPPED — PROJECT BRIEF','','Name: '+data.get('name'),'Email: '+data.get('email'),'Service: '+data.get('service'),...(data.has('tier') ? ['Preferred tier: '+(event.target.elements.tier.selectedOptions[0]?.textContent || 'To be discussed')] : []),'Selected services: '+(data.getAll('services').join('; ')||'To be discussed'),...(data.get('otherServices')?['Other service details: '+data.get('otherServices')]:[]),'Required date: '+(data.get('date')||'To be confirmed'),'','Project details:',data.get('details'),'','Prepared for discussion with backdropped.'].join('\n');const url=URL.createObjectURL(new Blob([text],{type:'text/plain;charset=utf-8'}));const link=document.createElement('a');link.href=url;link.download='backdropped-project-brief.txt';document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);document.querySelector('#brief-status').textContent='Your brief is ready to save. Keep it handy to share with backdropped.';});
 const menu=document.querySelector('.menu-toggle');const navigation=document.querySelector('#navigation');menu.addEventListener('click',()=>{const expanded=menu.getAttribute('aria-expanded')==='true';menu.setAttribute('aria-expanded',String(!expanded));navigation.classList.toggle('open',!expanded);});navigation.querySelectorAll('a').forEach(item=>item.addEventListener('click',()=>{menu.setAttribute('aria-expanded','false');navigation.classList.remove('open');}));document.addEventListener('keydown',event=>{if(event.key==='Escape'&&navigation.classList.contains('open')&&document.querySelector('.occasion-nav-toggle').getAttribute('aria-expanded')!=='true'){navigation.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.focus();}});
 document.querySelector('#year').textContent = new Date().getFullYear();
 const processVideo = document.querySelector('#process-video');
@@ -284,13 +288,13 @@ function filmPoster(stem) {
   return 'assets/films/' + stem + (matchMedia('(max-width: 760px)').matches ? '-mobile.webp' : '-desktop.webp');
 }
 function mobileVideoFile(stem) {
-  const films = {'backdrop-process':'home-project-montage','personal-event-loop':'personal-concept-montage','corporate-event-loop':'corporate-portfolio-montage'};
+  const films = {'backdrop-process':'home-install-montage','personal-event-loop':'personal-concept-montage','corporate-event-loop':'corporate-portfolio-montage'};
   return 'assets/films/' + films[stem] + (matchMedia('(max-width: 760px)').matches ? '-mobile.mp4' : '-desktop.mp4');
 }
 let userPaused = reducedMotion.matches || navigator.connection?.saveData === true;
 if(processVideo && videoToggle) {
 processVideo.muted = true;
-processVideo.poster = filmPoster('home-project-montage');
+processVideo.poster = filmPoster('home-install-montage');
 processVideo.src = mobileVideoFile('backdrop-process');
 function updateVideoControl() {
   videoToggle.hidden = false;

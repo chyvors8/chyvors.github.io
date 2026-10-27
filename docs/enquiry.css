@@ -20,3 +20,5 @@
 .service-enquiry-options .other-service-details{flex-direction:column;gap:7px;font-weight:500}
 .service-enquiry-options .other-service-details[hidden]{display:none}
 .other-service-details textarea{font-size:14px}
+
+#brief-tier-field[hidden]{display:none}
