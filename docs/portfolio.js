@@ -2,7 +2,7 @@
   const projects = window.backdroppedPortfolio || [];
   const grid = document.querySelector('#portfolio-grid');
   if (!grid) return;
-  const categories = [['all', 'All work'], ['exhibitions','Exhibitions'], ['signboards','Shop & business signs'], ['retail-graphics','Stickers & surface graphics'], ['window-displays','Shop windows'], ['retail-fixtures','Retail displays & fixtures'], ['backdrops','Backdrops'], ['hoardings','Temporary wall graphics'], ['personal-displays','Personal displays'], ['brand-print','Design & printed stationery'], ['production','Production']];
+  const categories = [['all', 'All work'], ['exhibitions','Exhibitions & events'], ['signboards','Shop & business signs'], ['retail-graphics','Stickers & surface graphics'], ['window-displays','Shop windows'], ['retail-fixtures','Retail displays & fixtures'], ['backdrops','Backdrops'], ['hoardings','Temporary wall graphics'], ['personal-displays','Personal displays'], ['brand-print','Design & printed stationery'], ['production','Production']];
   const serviceFilters = {'exhibitions':'Exhibition booths','signboards':'Signboards','retail-graphics':'Stickers','window-displays':'Window displays','retail-fixtures':'Retail fixtures','backdrops':'Backdrops','hoardings':'Hoarding graphics','personal-displays':'Personal displays','brand-print':'Print collateral','production':'Production'};
   const filters = document.querySelector('#portfolio-filters');
   const search = document.querySelector('#portfolio-search');
@@ -48,6 +48,9 @@
     overview.hidden = true; detail.hidden = false; document.title = project.name + ' — backdropped portfolio';
     document.querySelector('#project-heading').textContent = project.name; document.querySelector('#project-description').textContent = project.description;
     document.querySelector('#project-photo-total').textContent = project.photos.length + ' project photographs';
+    if (!project.photos.some(photo => photo.enhanced)) {
+      document.querySelector('#portfolio-detail .theme-disclaimer').textContent = 'Original project photographs. Select an image to enlarge it and browse the gallery.';
+    }
     const services = document.querySelector('#project-services');project.services.forEach(s=>services.append(make('li','',s)));
     const photos = document.querySelector('#project-photos');photos.replaceChildren(...project.photos.map((photo,index)=>{
       const figure=make('figure','portfolio-photo'); const button=make('button','portfolio-photo-open');button.type='button';button.setAttribute('aria-label','Enlarge '+photo.alt);button.append(image(photo,true));button.addEventListener('click',()=>openPhoto(project,index,button));figure.append(button,make('figcaption','',(photo.enhanced ? 'AI-enhanced preview · ' : '') + photo.alt));return figure;

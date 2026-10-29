@@ -474,6 +474,86 @@ window.backdroppedCorporateThemes = [
     "occasion": "corporate",
     "themes": [
       {
+        "id": "retail-exhibition-event-01",
+        "name": "Retail exhibition display / view 1",
+        "description": "Original project photograph featuring Art Illusion Pte Ltd production contributions.",
+        "setting": "Retail exhibition · Printed display panels",
+        "image": "assets/portfolio/retail-exhibition-event-02.jpg",
+        "kind": "real",
+        "occasion": "corporate",
+        "project": "retail-exhibition-event-displays"
+      },
+      {
+        "id": "retail-exhibition-event-02",
+        "name": "Retail exhibition display / view 2",
+        "description": "Original project photograph featuring Art Illusion Pte Ltd production contributions.",
+        "setting": "Retail exhibition · Printed display panels",
+        "image": "assets/portfolio/retail-exhibition-event-04.jpg",
+        "kind": "real",
+        "occasion": "corporate",
+        "project": "retail-exhibition-event-displays"
+      },
+      {
+        "id": "retail-exhibition-event-03",
+        "name": "Retail exhibition display / view 3",
+        "description": "Original project photograph featuring Art Illusion Pte Ltd production contributions.",
+        "setting": "Retail exhibition · Printed display panels",
+        "image": "assets/portfolio/retail-exhibition-event-03.jpg",
+        "kind": "real",
+        "occasion": "corporate",
+        "project": "retail-exhibition-event-displays"
+      },
+      {
+        "id": "retail-exhibition-event-04",
+        "name": "Retail exhibition display / view 4",
+        "description": "Original project photograph featuring Art Illusion Pte Ltd production contributions.",
+        "setting": "Retail exhibition · Printed display panels",
+        "image": "assets/portfolio/retail-exhibition-event-01.jpg",
+        "kind": "real",
+        "occasion": "corporate",
+        "project": "retail-exhibition-event-displays"
+      },
+      {
+        "id": "retail-exhibition-event-05",
+        "name": "Retail exhibition display / view 5",
+        "description": "Original project photograph featuring Art Illusion Pte Ltd production contributions.",
+        "setting": "Retail exhibition · Printed display panels",
+        "image": "assets/portfolio/retail-exhibition-event-05.jpg",
+        "kind": "real",
+        "occasion": "corporate",
+        "project": "retail-exhibition-event-displays"
+      },
+      {
+        "id": "retail-exhibition-event-06",
+        "name": "Retail exhibition display / view 6",
+        "description": "Original project photograph featuring Art Illusion Pte Ltd production contributions.",
+        "setting": "Retail exhibition · Printed display panels",
+        "image": "assets/portfolio/retail-exhibition-event-06.jpg",
+        "kind": "real",
+        "occasion": "corporate",
+        "project": "retail-exhibition-event-displays"
+      },
+      {
+        "id": "retail-exhibition-event-07",
+        "name": "Retail exhibition display / view 7",
+        "description": "Original project photograph featuring Art Illusion Pte Ltd production contributions.",
+        "setting": "Retail exhibition · Printed display panels",
+        "image": "assets/portfolio/retail-exhibition-event-07.jpg",
+        "kind": "real",
+        "occasion": "corporate",
+        "project": "retail-exhibition-event-displays"
+      },
+      {
+        "id": "retail-exhibition-event-08",
+        "name": "Retail exhibition display / view 8",
+        "description": "Original project photograph featuring Art Illusion Pte Ltd production contributions.",
+        "setting": "Retail exhibition · Printed display panels",
+        "image": "assets/portfolio/retail-exhibition-event-08.jpg",
+        "kind": "real",
+        "occasion": "corporate",
+        "project": "retail-exhibition-event-displays"
+      },
+      {
         "id": "exhibition-project-140",
         "name": "Meiji exhibition booth",
         "description": "A coordinated branded counter, graphics and display area, installed for an exhibition.",

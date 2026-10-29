@@ -1,5 +1,80 @@
 window.backdroppedPortfolio = [
   {
+    "id": "retail-exhibition-event-displays",
+    "name": "Retail exhibition & event displays",
+    "description": "Printed product panels and display graphics across a retail exhibition space. Original project photographs featuring production contributions by Art Illusion Pte Ltd.",
+    "category": "exhibitions",
+    "services": [
+      "Exhibition booths",
+      "Banners & display boards"
+    ],
+    "cover": {
+      "image": "assets/portfolio/retail-exhibition-event-02.jpg",
+      "thumb": "assets/delivery/retail-exhibition-event-02-480.webp",
+      "alt": "Retail exhibition display panels and visitor walkway",
+      "width": 1500,
+      "height": 2000
+    },
+    "photos": [
+      {
+        "image": "assets/portfolio/retail-exhibition-event-02.jpg",
+        "thumb": "assets/delivery/retail-exhibition-event-02-480.webp",
+        "alt": "Retail exhibition display panels and visitor walkway",
+        "width": 1500,
+        "height": 2000
+      },
+      {
+        "image": "assets/portfolio/retail-exhibition-event-04.jpg",
+        "thumb": "assets/delivery/retail-exhibition-event-04-480.webp",
+        "alt": "Television and appliance display panels at a retail event",
+        "width": 1500,
+        "height": 2000
+      },
+      {
+        "image": "assets/portfolio/retail-exhibition-event-03.jpg",
+        "thumb": "assets/delivery/retail-exhibition-event-03-480.webp",
+        "alt": "Television product display panel at a retail exhibition",
+        "width": 1500,
+        "height": 2000
+      },
+      {
+        "image": "assets/portfolio/retail-exhibition-event-01.jpg",
+        "thumb": "assets/delivery/retail-exhibition-event-01-480.webp",
+        "alt": "Gaming product display panel at a retail exhibition",
+        "width": 1500,
+        "height": 2000
+      },
+      {
+        "image": "assets/portfolio/retail-exhibition-event-05.jpg",
+        "thumb": "assets/delivery/retail-exhibition-event-05-480.webp",
+        "alt": "Work and play product display panel",
+        "width": 1500,
+        "height": 2000
+      },
+      {
+        "image": "assets/portfolio/retail-exhibition-event-06.jpg",
+        "thumb": "assets/delivery/retail-exhibition-event-06-480.webp",
+        "alt": "Printed display panels viewed from the side",
+        "width": 1500,
+        "height": 2000
+      },
+      {
+        "image": "assets/portfolio/retail-exhibition-event-07.jpg",
+        "thumb": "assets/delivery/retail-exhibition-event-07-480.webp",
+        "alt": "Appliance product display panel at a retail event",
+        "width": 1500,
+        "height": 2000
+      },
+      {
+        "image": "assets/portfolio/retail-exhibition-event-08.jpg",
+        "thumb": "assets/delivery/retail-exhibition-event-08-480.webp",
+        "alt": "Sofa product display panel at a retail exhibition",
+        "width": 1500,
+        "height": 2000
+      }
+    ]
+  },
+  {
     "id": "barbie-retail-campaign",
     "name": "Barbie retail campaign",
     "description": "Printed graphics and fixtures bring a colourful toy-store campaign across shelves, pillars and the concept corner.",
