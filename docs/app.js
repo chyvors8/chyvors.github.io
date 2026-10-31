@@ -210,7 +210,7 @@ function setOccasion(key, focus = false) {
     if (collection) {
       const explore = document.createElement('a'); explore.className = 'theme-explore-link';
       explore.href = 'themes.html?category=' + collection.key;
-      explore.textContent = 'Explore ' + collection.themes.length + (category.name === 'Exhibition setup & dismantling' ? ' project photos ↗' : key === 'corporate' ? ' ideas & projects ↗' : collection.tierExamples ? ' tier & bespoke concepts ↗' : ' themes ↗'); body.append(explore);
+      explore.textContent = 'Explore ' + collection.themes.length + (category.name === 'Exhibition setup & dismantling' ? ' project photos ↗' : key === 'corporate' ? ' ideas & projects ↗' : collection.tierExamples ? ' tier concepts ↗' : ' themes ↗'); body.append(explore);
       if (key === 'corporate' && collection.key === 'signboards') {
         const guide = document.createElement('a'); guide.className = 'theme-explore-link';
         guide.href = 'themes.html?occasion=corporate&category=signboards#signboard-guide';
