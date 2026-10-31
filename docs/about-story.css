@@ -32,3 +32,11 @@
 
 .chapter-image-pair{display:grid;grid-template-columns:1fr 1fr;gap:3px}.chapter-image-pair figure{position:relative;margin:0;min-width:0;overflow:hidden}.chapter-image-pair img{height:240px}.chapter-image-pair figcaption{font-size:8px;left:8px;bottom:8px;max-width:calc(100% - 16px);padding:5px 7px}@media(max-width:760px){.chapter-image-pair img{height:220px}.chapter-image-pair figcaption{font-size:8px;line-height:1.4}}
 .chapter-image-pair figcaption{position:static;width:100%;max-width:none;min-height:39px;padding:7px 9px;background:#f5f6f0}.story-chapter:has(.chapter-image-pair) .chapter-mark{top:279px}@media(max-width:760px){.chapter-image-pair img{height:135px}.chapter-image-pair figcaption{min-height:48px}.story-chapter:has(.chapter-image-pair) .chapter-mark{top:183px}}
+
+/* A playful editorial introduction in place of the two hero links. */
+.story-welcome{margin:34px 0 0;font-family:var(--display);font-size:clamp(50px,6.3vw,90px);font-weight:700;line-height:1.04;letter-spacing:-.055em}
+.welcome-top{display:flex;align-items:center;gap:24px;color:var(--story-blue)}
+.welcome-spark{display:inline-block;color:var(--orange);font-size:.8em;font-weight:400}
+.welcome-bottom{display:block;margin-top:9px;color:var(--pink)}
+.welcome-us{display:inline-block;padding:0 .17em .06em;background:var(--green);color:var(--ink);border-radius:45%;transform:rotate(-5deg)}
+@media(max-width:760px){.story-welcome{font-size:clamp(50px,13vw,76px);margin-top:28px}.welcome-top{gap:18px}}
