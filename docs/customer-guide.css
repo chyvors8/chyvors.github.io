@@ -17,3 +17,10 @@ html:has(.signage-guide),html:has(.project-workflow){scroll-behavior:auto}
 @media(prefers-reduced-motion:reduce){.demo-word{transition:none}.material-card:hover .metal-sample:after{animation:none}}
 
 .signboard-guide[hidden]{display:none}.signboard-guide{padding:0;margin:28px 0 36px;border:1px solid #dfe4d7;border-radius:24px;background:#fff;overflow:hidden;scroll-margin-top:24px}.signboard-guide>summary{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;padding:24px 28px;background:#f4faed;cursor:pointer;font-size:24px;font-weight:600;list-style:none}.signboard-guide>summary::-webkit-details-marker{display:none}.guide-summary-note{font-size:15px;font-weight:500;color:var(--muted)}.guide-summary-note::after{content:" +";color:var(--ink);font-size:24px;margin-left:12px}.signboard-guide[open] .guide-summary-note::after{content:" −"}.signboard-guide-content{padding:28px}.signboard-guide-content>.guide-intro{margin-top:0}.signboard-guide .guide-title{font-size:clamp(30px,4vw,48px)}.occasion-category-body .theme-explore-link+.theme-explore-link{display:block;margin-top:16px}@media(max-width:650px){.signboard-guide>summary{padding:20px;font-size:22px}.signboard-guide-content{padding:18px}.signboard-guide .guide-card-copy{padding:20px}}
+
+/* Calm, one-time process reveals; all copy remains visible without JavaScript. */
+.workflow-grid li{transition:transform .22s ease,box-shadow .22s ease}
+.workflow-grid li.workflow-revealed{animation:workflow-arrive .55s ease both;animation-delay:var(--workflow-delay,0ms)}
+@keyframes workflow-arrive{from{opacity:0;translate:0 12px}to{opacity:1;translate:0 0}}
+@media(hover:hover) and (pointer:fine){.workflow-grid li:hover{transform:translateY(-3px);box-shadow:0 8px 20px #22271f0b}}
+@media(prefers-reduced-motion:reduce){.workflow-grid li,.workflow-grid li.workflow-revealed{animation:none;transition:none;transform:none;translate:none}}

@@ -10,3 +10,20 @@ document.querySelectorAll('[data-light-demo]').forEach(card => {
     demo.setAttribute('aria-label', description + ' Illustrative sign with lights ' + (on ? 'on.' : 'off.'));
   });
 });
+
+// Reveal each process card once, without continuous motion or touch interception.
+(() => {
+  const cards = document.querySelectorAll('.workflow-grid > li');
+  if (!cards.length || !('IntersectionObserver' in window) || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add('workflow-revealed');
+      observer.unobserve(entry.target);
+    });
+  }, { threshold: .15 });
+  cards.forEach((card, index) => {
+    card.style.setProperty('--workflow-delay', (index % 3) * 80 + 'ms');
+    observer.observe(card);
+  });
+})();
