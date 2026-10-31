@@ -47,7 +47,7 @@
     const transformed = amount >= 50;
     stage.classList.toggle('is-shining', transformed);
     shine.setAttribute('aria-pressed', String(transformed));
-    shine.innerHTML = transformed ? '<span aria-hidden="true">↺</span> Back to the plain backdrop' : '<span aria-hidden="true">✦</span> See the Backdropped transformation';
+    shine.innerHTML = transformed ? '<span aria-hidden="true">↺</span> Back to the plain backdrop' : 'See the Backdropped transformation';
     state.textContent = amount === 0 ? 'A plain starting point' : amount === 100 ? 'The Backdropped touch' : 'Plain → Backdropped';
     response.textContent = amount === 0 ? 'One space. Imagine the possibilities.' : amount === 100 ? 'Custom shapes. Personal details. A burst of colour.' : 'Slide to see the creative difference.';
     slider.value = String(amount);
