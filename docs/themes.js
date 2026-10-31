@@ -657,7 +657,6 @@ window.backdroppedThemes.push(...(window.backdroppedCorporateThemes || []));
   }
   function createMotionButton(reel) {
     const controls = document.createElement('div'); controls.className = 'theme-preview-controls';
-    const hint = document.createElement('span'); hint.className = 'theme-preview-hint';
     const previous = document.createElement('button'); previous.type = 'button'; previous.className = 'theme-preview-arrow theme-preview-previous';
     previous.textContent = '‹'; previous.setAttribute('aria-label', 'Previous image');
     const next = document.createElement('button'); next.type = 'button'; next.className = 'theme-preview-arrow theme-preview-next';
@@ -668,22 +667,11 @@ window.backdroppedThemes.push(...(window.backdroppedCorporateThemes || []));
         advance(); reel.nextFadeAt = performance.now() + 2500;
       });
     }
-    const button = document.createElement('button'); button.type = 'button'; button.className = 'theme-motion-toggle';
     reel.updatePreviewControls = () => {
-      hint.textContent = desktopPreview.matches ? 'Hover or use arrows' : 'Swipe to view';
-      const paused = reel.classList.contains('is-paused');
-      button.textContent = paused ? 'Resume fades' : 'Pause fades';
-      button.setAttribute('aria-pressed', String(paused));
-      button.hidden = !desktopPreview.matches || reduced.matches;
       previous.hidden = next.hidden = !desktopPreview.matches;
     };
-    button.addEventListener('click', () => {
-      const paused = reel.classList.toggle('is-paused');
-      if (!paused) reel.nextFadeAt = performance.now() + 250;
-      reel.updatePreviewControls();
-    });
     reel.updatePreviewControls();
-    controls.append(hint, button, previous, next); return controls;
+    controls.append(previous, next); return controls;
   }
   window.backdroppedThemeUI = { createReel, createMotionButton };
   setInterval(() => {
