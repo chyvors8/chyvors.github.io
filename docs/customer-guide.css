@@ -24,3 +24,20 @@ html:has(.signage-guide),html:has(.project-workflow){scroll-behavior:auto}
 @keyframes workflow-arrive{from{opacity:0;translate:0 12px}to{opacity:1;translate:0 0}}
 @media(hover:hover) and (pointer:fine){.workflow-grid li:hover{transform:translateY(-3px);box-shadow:0 8px 20px #22271f0b}}
 @media(prefers-reduced-motion:reduce){.workflow-grid li,.workflow-grid li.workflow-revealed{animation:none;transition:none;transform:none;translate:none}}
+
+/* Purposeful illustrations describe each step, without decorative symbols. */
+.workflow-card-top{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:68px}
+.workflow-illustration{width:64px;height:68px;flex:none;overflow:visible;transition:translate .3s ease}
+.step-motion{transform-box:fill-box;transform-origin:center}
+.workflow-revealed .step-motion{animation:step-settle 1.3s ease both;animation-delay:calc(var(--workflow-delay,0ms) + .2s)}
+.workflow-revealed .step-quote .step-motion,.workflow-revealed .step-booking .step-motion{animation-name:step-draw;stroke-dasharray:100;stroke-dashoffset:0}
+.workflow-revealed .step-design .step-motion{animation-name:step-sketch}
+.workflow-revealed .step-delivery .step-motion{animation-name:step-deliver}
+.workflow-revealed .step-installation .step-motion{animation-name:step-turn}
+@keyframes step-draw{from{opacity:.2;stroke-dashoffset:100}to{opacity:1;stroke-dashoffset:0}}
+@keyframes step-settle{0%{transform:translateY(-5px);opacity:.3}65%{transform:translateY(1px);opacity:1}100%{transform:translateY(0)}}
+@keyframes step-sketch{0%{transform:translate(3px,-3px)}35%{transform:translate(-2px,2px)}65%{transform:translate(2px,-2px)}100%{transform:translate(0,0)}}
+@keyframes step-deliver{from{transform:translateX(-7px);opacity:.25}to{transform:translateX(0);opacity:1}}
+@keyframes step-turn{0%{transform:rotate(-15deg)}50%{transform:rotate(6deg)}100%{transform:rotate(0)}}
+@media(hover:hover) and (pointer:fine){.workflow-grid li:hover .workflow-illustration{translate:0 -3px}}
+@media(prefers-reduced-motion:reduce){.workflow-illustration,.workflow-revealed .step-motion{animation:none;transition:none;translate:none;transform:none}}
